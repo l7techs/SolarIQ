@@ -30242,11 +30242,12 @@ _.a=g},
 a1r:function a1r(a,b){this.c=a
 this.a=b},
 b5a(){return new A.pp()},
-fR:function fR(a,b,c,d){var _=this
+fR:function fR(a,b,c,d,e){var _=this
 _.a=a
 _.b=b
 _.c=c
-_.d=d},
+_.d=d
+_.e=e},
 pp:function pp(){this.a=$},
 zu:function zu(a){this.a=a},
 avm:function avm(a,b,c){this.a=a
@@ -103937,17 +103938,17 @@ if(r>0)s="\u26a1 "+B.d.T(r,1)+" A"
 else{s=s.ch
 s=s>0?B.d.T(s,1)+" A":"Idle"}return A.fs(new A.aX(B.bk,A.bS(A.b([k,B.be,o,B.aL,A.ci(A.b([n,j,A.ao(s,q,q,q,A.aD(q,q,A.W(153,m.n()>>>16&255,m.n()>>>8&255,m.n()&255),q,q,q,q,q,q,q,q,12,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q)],l),B.q,B.cu,B.y,0,q)],l),B.ae,B.m,B.y),q),q)}}
 A.a6C.prototype={
-G(a){var s,r,q,p,o=null,n=A.O(a).ax,m=this.c,l=m.b,k=l.go
-if(k>=0)s=k/1000
+G(a){var s,r,q,p,o=null,n=A.O(a).ax,m=this.c,l=m.e,k=m.b,j=k.go
+if(j>=0)s=j/1000*l
 else s=m.c
+r=k.fy/1000*l
 m=n.b
 k=A.cK(B.Jz,m,o,28)
-r=n.k3
-q=A.ao("Today's Production",o,o,o,A.aD(o,o,r,o,o,o,o,o,o,o,o,13,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o)
+j=n.k3
+q=A.ao("Today's Production",o,o,o,A.aD(o,o,j,o,o,o,o,o,o,o,o,13,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o)
 p=t.p
 m=A.b([A.ao(B.d.T(s,1)+" kWh",o,o,o,A.aD(o,o,m,o,o,o,o,o,o,o,o,18,o,o,B.aB,o,o,!0,o,o,o,o,o,o,o,o),o,o)],p)
-l=l.fy/1000
-if(l>0)m.push(A.ao("Total: "+B.d.T(l,0)+" kWh",o,o,o,A.aD(o,o,A.W(102,r.n()>>>16&255,r.n()>>>8&255,r.n()&255),o,o,o,o,o,o,o,o,10,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o))
+if(r>0)m.push(A.ao("Total: "+B.d.T(r,0)+" kWh",o,o,o,A.aD(o,o,A.W(102,j.n()>>>16&255,j.n()>>>8&255,j.n()&255),o,o,o,o,o,o,o,o,10,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o))
 return A.fs(new A.aX(B.Is,A.ci(A.b([k,B.d0,q,B.jo,A.bS(m,B.e6,B.m,B.y)],p),B.q,B.m,B.y,0,o),o),o)}}
 A.a1M.prototype={
 G(a){var s=null,r=A.O(a).ax.b,q=t.p,p=this.c
@@ -104057,23 +104058,24 @@ o===$&&A.a()
 o.sjK(0,p)
 return A.C(null,r)}})
 return A.D($async$fb,r)},
-rQ(){var s=0,r=A.E(t.tf),q,p=this,o,n,m,l
+rQ(){var s=0,r=A.E(t.tf),q,p=this,o,n,m,l,k
 var $async$rQ=A.F(function(a,b){if(a===1)return A.B(b,r)
-for(;;)switch(s){case 0:l=p.a
-l===$&&A.a()
-s=l.cf($.P1(),t.DE).gkm()?3:4
+for(;;)switch(s){case 0:k=p.a
+k===$&&A.a()
+s=k.cf($.P1(),t.DE).gkm()?3:4
 break
 case 3:s=5
 return A.u(A.xX(B.I1,null,t.z),$async$rQ)
 case 5:throw A.e(A.du("Timeout loading systems"))
-case 4:o=l.cf($.ky(),t.q9)
+case 4:o=k.cf($.ky(),t.q9)
 if(o==null)throw A.e(A.du("No solar system configured. Add one in Settings."))
-n=l.di(0,$.b35(),t.BX)
+n=k.di(0,$.b35(),t.BX)
 s=6
 return A.u(A.j4(A.b([n.zc(o),n.zb(o),n.zk(o)],t.c9),t.K),$async$rQ)
 case 6:m=b
-l=J.a7(m)
-q=new A.fR(t.kj.a(l.i(m,0)),t.lF.a(l.i(m,1)),A.cJ(l.i(m,2)),o.z*o.Q/1000)
+l=o.y
+k=J.a7(m)
+q=new A.fR(t.kj.a(k.i(m,0)),t.lF.a(k.i(m,1)),A.cJ(k.i(m,2))*l,o.z*o.Q/1000,l)
 s=1
 break
 case 1:return A.C(q,r)}})
