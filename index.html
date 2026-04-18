@@ -44,6 +44,25 @@
 </head>
 <body>
   <!--
+    Pre-register the FCM service worker BEFORE Flutter starts.
+    firebase_messaging.getToken() on web requires the service worker
+    to be registered and active — without this, Firebase silently fails
+    to generate a push token on web/PWA.
+  -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/firebase-messaging-sw.js', { scope: '/' })
+        .then(function (reg) {
+          console.log('[SolarIQ] FCM SW registered, scope:', reg.scope, 'state:', reg.active ? reg.active.state : 'installing');
+        })
+        .catch(function (err) {
+          console.error('[SolarIQ] FCM SW registration failed:', err);
+        });
+    }
+  </script>
+
+  <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
     or to give the user feedback during the initialization process.
