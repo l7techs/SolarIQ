@@ -51,8 +51,12 @@
   -->
   <script>
     if ('serviceWorker' in navigator) {
+      // Use a relative path (no leading slash) so this resolves correctly
+      // regardless of deployment subpath (GitHub Pages, Netlify, etc.).
+      // Scope intentionally omitted — defaults to the SW script's directory,
+      // which matches the app's base href automatically.
       navigator.serviceWorker
-        .register('/firebase-messaging-sw.js', { scope: '/' })
+        .register('firebase-messaging-sw.js')
         .then(function (reg) {
           console.log('[SolarIQ] FCM SW registered, scope:', reg.scope, 'state:', reg.active ? reg.active.state : 'installing');
         })
