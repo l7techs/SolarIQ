@@ -44,26 +44,32 @@
 </head>
 <body>
   <!--
-    Pre-register the FCM service worker BEFORE Flutter starts.
-    firebase_messaging.getToken() on web requires the service worker
-    to be registered and active — without this, Firebase silently fails
-    to generate a push token on web/PWA.
+    Fix for FCM service worker on GitHub Pages (or any subpath deployment).
+
+    Problem: The firebase_messaging Flutter plugin always registers its SW at
+    the hardcoded origin-root path '/firebase-messaging-sw.js' — there is no
+    Dart API to pass a custom ServiceWorkerRegistration. On GitHub Pages the
+    app lives at /SolarIQ-App/, so the root URL 404s and getToken() fails.
+
+    Fix: Intercept navigator.serviceWorker.register() BEFORE Flutter or any
+    Firebase JS code runs. When Firebase tries '/firebase-messaging-sw.js'
+    (absolute root), redirect it to 'firebase-messaging-sw.js' (relative),
+    which resolves correctly against the page URL for any deployment path.
   -->
   <script>
-    if ('serviceWorker' in navigator) {
-      // Use a relative path (no leading slash) so this resolves correctly
-      // regardless of deployment subpath (GitHub Pages, Netlify, etc.).
-      // Scope intentionally omitted — defaults to the SW script's directory,
-      // which matches the app's base href automatically.
-      navigator.serviceWorker
-        .register('firebase-messaging-sw.js')
-        .then(function (reg) {
-          console.log('[SolarIQ] FCM SW registered, scope:', reg.scope, 'state:', reg.active ? reg.active.state : 'installing');
-        })
-        .catch(function (err) {
-          console.error('[SolarIQ] FCM SW registration failed:', err);
-        });
-    }
+    (function () {
+      if (!('serviceWorker' in navigator)) return;
+      var _orig = navigator.serviceWorker.register.bind(navigator.serviceWorker);
+      navigator.serviceWorker.register = function (scriptURL, options) {
+        var url = (typeof scriptURL === 'string') ? scriptURL : scriptURL.toString();
+        if (url === '/firebase-messaging-sw.js') {
+          console.log('[SolarIQ] FCM SW: redirecting /firebase-messaging-sw.js → relative path');
+          // Drop the scope so it defaults to the script directory (the app subpath).
+          return _orig('firebase-messaging-sw.js');
+        }
+        return _orig(scriptURL, options);
+      };
+    })();
   </script>
 
   <!--
