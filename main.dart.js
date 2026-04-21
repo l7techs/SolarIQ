@@ -8989,7 +8989,7 @@ return b},
 b71(a,b){if(a instanceof A.km)return a
 return A.Yv(a,null,b,null,null,B.Lj)},
 bdr(a,b,c){var s,r,q,p,o=null
-if(!(a instanceof A.jU))return A.b8l(c.a(a),o,o,!1,B.RX,b,o,o,c)
+if(!(a instanceof A.jU))return A.b8l(c.a(a),o,o,!1,B.RW,b,o,o,c)
 else if(!c.h("jU<0>").b(a)){s=c.h("0?").a(a.a)
 if(s instanceof A.uY){r=s.f
 q=b.c
@@ -9298,7 +9298,7 @@ akJ:function akJ(a){this.a=a},
 akK:function akK(a,b){this.a=a
 this.b=b},
 Yx(a){var s=new A.a_C(A.a([B.HE],t.i6))
-s.J(s,B.RY)
+s.J(s,B.RX)
 s=new A.Yw($,s,$,new A.asO(51200),!1)
 s.a8s$=a==null?A.bcz("",null,null,B.i_):a
 s.a8u$=new A.akA(A.aY(t.m))
@@ -13976,8 +13976,8 @@ break
 case 4:s=l.a
 s===$&&A.b()
 s=A.cf(s,200)
-r=A.cf(A.aoU(l,B.ts,B.R8),24)
-q=A.cf(A.aoU(l,B.ts,B.RN),32)
+r=A.cf(A.aoU(l,B.ts,B.R7),24)
+q=A.cf(A.aoU(l,B.ts,B.RM),32)
 p=A.cf(l.a,10)
 o=A.cf(l.a,12)
 l.d===$&&A.b()
@@ -13987,8 +13987,8 @@ break
 case 5:s=l.a
 s===$&&A.b()
 s=A.cf(A.LJ(s+240),40)
-r=A.cf(A.aoU(l,B.tu,B.SG),24)
-q=A.cf(A.aoU(l,B.tu,B.SH),32)
+r=A.cf(A.aoU(l,B.tu,B.SF),24)
+q=A.cf(A.aoU(l,B.tu,B.SG),32)
 p=A.cf(l.a+15,8)
 o=A.cf(l.a+15,12)
 l.d===$&&A.b()
@@ -23490,7 +23490,7 @@ r.toString
 A.dd(r)
 q=a.i(0,"swipeEdge")
 q.toString
-return new A.uQ(s,r,B.Rw[A.et(q)])},
+return new A.uQ(s,r,B.Rv[A.et(q)])},
 OG:function OG(a,b){this.a=a
 this.b=b},
 uQ:function uQ(a,b,c){this.a=a
@@ -25737,7 +25737,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 bux(a,b){var s=A.a2(b).h("a0<1,fc>")
 s=A.a1(new A.a0(b,new A.aqx(),s),s.h("ao.E"))
-return A.btc(!0,s,a,B.S2,!0,B.Lc,null)},
+return A.btc(!0,s,a,B.S1,!0,B.Lc,null)},
 b79(a){var s
 try{a.eQ()}catch(s){a.ZQ()}a.w=B.a95
 try{a.bO(A.bGx())}catch(s){}},
@@ -26345,7 +26345,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 a_x(a,b){var s
-if(a.k(0,b))return new A.Xd(B.Sl)
+if(a.k(0,b))return new A.Xd(B.Sk)
 s=A.a([],t.fJ)
 A.bX()
 a.r2(new A.avv(b,A.aY(t.v),s))
@@ -30370,7 +30370,7 @@ B.b.J(r,A.a(b.split("/"),s))
 return"/"+new A.aE(r,new A.b3P(),A.a2(r).h("aE<1>")).bA(0,"/")},
 b2m:function b2m(){},
 b3P:function b3P(){},
-hV(a,b,c){var s=A.a([],t.s),r=new A.xA(c,b,a,s,null,B.S1,null)
+hV(a,b,c){var s=A.a([],t.s),r=new A.xA(c,b,a,s,null,B.S0,null)
 r.y=A.bkI(c,s)
 return r},
 v_:function v_(){},
@@ -30548,7 +30548,7 @@ _.a=e
 _.b=f},
 atY:function atY(){},
 buM(a){var s=J.ab(a)
-return new A.pK(s.i(a,"id"),s.i(a,"friendly_name"),B.b.qu(B.Rd,new A.ari(a)),B.b.qu(B.Rc,new A.arj(a)),A.lk(s.i(a,"created_at")),A.lk(s.i(a,"updated_at")))},
+return new A.pK(s.i(a,"id"),s.i(a,"friendly_name"),B.b.qu(B.Rc,new A.ari(a)),B.b.qu(B.Rb,new A.arj(a)),A.lk(s.i(a,"created_at")),A.lk(s.i(a,"updated_at")))},
 xi:function xi(a,b){this.a=a
 this.b=b},
 xj:function xj(a,b){this.a=a
@@ -35984,7 +35984,7 @@ auh(a){var s=a/100
 return(s<=0.0031308?s*12.92:1.055*Math.pow(s,0.4166666666666667)-0.055)*255},
 b7x(a){var s=Math.pow(Math.abs(a),0.42)
 return A.o1(a)*400*s/(s+27.13)},
-b7y(a){var s=A.us(a,B.SF),r=A.b7x(s[0]),q=A.b7x(s[1]),p=A.b7x(s[2])
+b7y(a){var s=A.us(a,B.SE),r=A.b7x(s[0]),q=A.b7x(s[1]),p=A.b7x(s[2])
 return Math.atan2((r+q-2*p)/9,(11*r+-12*q+p)/11)},
 bvB(a,b){var s,r,q,p,o,n=B.e.av(b,4)<=1?0:100,m=(b&1)===0?0:100
 if(b<4){s=(a-n*0.7152-m*0.0722)/0.2126
@@ -37418,7 +37418,7 @@ Cp(){var s=this.Q
 s===$&&A.b()
 return s},
 Cq(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Sk
+if(a<0||b<0)return B.Sj
 s=this.a
 s===$&&A.b()
 s=s.a
@@ -37437,7 +37437,7 @@ l.push(new A.fX(n[0],n[1],n[2],n[3],B.n_[m]))}return l},
 e4(a){var s,r,q=this.a
 q===$&&A.b()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.Ry[J.aP(s.affinity.value)]
+r=B.Rx[J.aP(s.affinity.value)]
 return new A.aO(J.aP(s.pos),r)},
 V7(a){var s=this.a
 s===$&&A.b()
@@ -37680,7 +37680,7 @@ k(a,b){if(b==null)return!1
 if(!(b instanceof A.JS))return!1
 return b.d===this.d&&b.b==this.b&&A.kf(b.c,this.c)},
 gA(a){var s=this,r=s.c
-return A.Y(s.d,s.a,s.b,A.c4(r==null?B.Sm:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.Y(s.d,s.a,s.b,A.c4(r==null?B.Sl:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 $iky:1}
 A.IH.prototype={
 a5U(a,b){var s=this.Zb(a),r=A.bL(new A.alw(this,b,s))
@@ -37936,7 +37936,7 @@ A.wD.prototype={
 H(){return"CanvasKitVariant."+this.b}}
 A.arY.prototype={
 gq1(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.buH(B.RH,r==null?"auto":r)},
+return A.buH(B.RG,r==null?"auto":r)},
 gQv(){var s,r=this.b
 if(r==null)s=null
 else{r=r.canvasKitMaximumSurfaces
@@ -39791,7 +39791,7 @@ if(e.b){q=t.f
 d=q.a(J.aM(q.a(B.cK.je(a2)),"data"))
 c=A.bK(J.aM(d,"message"))
 if(c!=null&&c.length!==0){b=A.b7N(d,"assertiveness")
-e.a.a6b(c,B.R5[b==null?0:b])}}a.hJ(a3,B.cK.d_(!0))
+e.a.a6b(c,B.R4[b==null?0:b])}}a.hJ(a3,B.cK.d_(!0))
 return
 case"flutter/navigation":q=a.gee().b
 p=t.e8
@@ -42587,7 +42587,7 @@ if(r.f!==B.rF){r.f=B.rF
 r.a1p()}}return r.d.a.afi(a)},
 a1p(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-afh(a){if(B.b.q(B.RS,a))return this.f===B.jo
+afh(a){if(B.b.q(B.RR,a))return this.f===B.jo
 return!1}}
 A.ar8.prototype={
 $0(){return new A.bV(Date.now(),0,!1)},
@@ -44100,7 +44100,7 @@ m=A.jr(r.i(s,"fontWeightIndex"))
 l=m!=null?A.bab(m):"normal"
 q=A.dM(r.i(s,"fontSize"))
 if(q==null)q=null
-p=new A.aMf(new A.aqt(q,l,A.bK(r.i(s,"fontFamily")),B.R3[o],B.n_[n]))
+p=new A.aMf(new A.aqt(q,l,A.bK(r.i(s,"fontFamily")),B.R2[o],B.n_[n]))
 break
 case"TextInput.clearClient":p=B.I7
 break
@@ -54908,7 +54908,7 @@ h=r[4]
 g=r[5]
 f=r[6]
 e=r[7]
-for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Re[q]+s[q]>>>0)>>>0)>>>0
+for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Rd[q]+s[q]>>>0)>>>0)>>>0
 b=i+c>>>0
 a=c+((((d>>>2|d<<30)^(d>>>13|d<<19)^(d>>>22|d<<10))>>>0)+((d&k^d&j^k&j)>>>0)>>>0)>>>0}r.$flags&2&&A.a7(r)
 r[0]=d+l>>>0
@@ -58969,7 +58969,7 @@ q=i.b.x
 q===$&&A.b()
 p=B.d.dP(8*q)
 for(q=i.e,o=8*q,n=i.f,q=q<1,m=i.c,l=0;l<o;++l){k=B.e.av(l-p,8)
-s.r=m.cK(q?147:B.Sx[k]).gt(0)
+s.r=m.cK(q?147:B.Sw[k]).gt(0)
 j=s.dG()
 r.drawRRect(A.oZ(n),j)
 j.delete()
@@ -59453,7 +59453,7 @@ r=A.o6(B.W_,B.h,r==null?1:r)
 r.toString
 q=p.ai(0,q.gt(q))
 if(q==null)q=1
-return A.b8N(A.bfV(null,B.t,new A.Df(q,B.Ru,new A.db(B.Gx,this.e)),s,1,B.a0o),r)}}
+return A.b8N(A.bfV(null,B.t,new A.Df(q,B.Rt,new A.db(B.Gx,this.e)),s,1,B.a0o),r)}}
 A.UH.prototype={
 m(){var s=this,r=s.bt$
 if(r!=null)r.I(0,s.gh4())
@@ -63298,7 +63298,7 @@ A.FP.prototype={
 H(){return"_CornerId."+this.b}}
 A.r0.prototype={}
 A.Dn.prototype={
-o3(){var s,r,q,p=this,o=A.bDY(B.RK,new A.azu(p,p.b.gbm().M(0,p.a.gbm()))),n=p.a
+o3(){var s,r,q,p=this,o=A.bDY(B.RJ,new A.azu(p,p.b.gbm().M(0,p.a.gbm()))),n=p.a
 n.toString
 s=o.a
 r=p.vf(n,s)
@@ -67255,7 +67255,7 @@ A.aXW.prototype={
 $0(){return A.a([],t.q1)},
 $S:1016}
 A.a7O.prototype={
-gWc(){return B.Rj},
+gWc(){return B.Ri},
 a6R(a){var s,r=this
 switch(a.a){case 0:s=r.d.ax
 break
@@ -67994,7 +67994,7 @@ return s.b}}
 A.nd.prototype={
 H(){return"_ListTileSlot."+this.b}}
 A.aap.prototype={
-gWc(){return B.RE},
+gWc(){return B.RD},
 a6R(a){var s,r=this
 switch(a.a){case 0:s=r.d
 break
@@ -68306,7 +68306,7 @@ r.f=s.d},
 $S:0}
 A.a0e.prototype={
 F(a){var s=this.c.W(0,new A.l(0,40.95))
-return A.bfV(A.J1(null,B.Kg,!0),B.F,new A.Df(1,B.St,new A.db(B.Gw,B.u)),s,1.25,B.a0s)}}
+return A.bfV(A.J1(null,B.Kg,!0),B.F,new A.Df(1,B.Ss,new A.db(B.Gw,B.u)),s,1.25,B.a0s)}}
 A.ya.prototype={
 H(){return"MaterialType."+this.b}}
 A.LF.prototype={
@@ -69056,7 +69056,7 @@ glv(){return A.bHT()},
 Qp(a,b,c,d,e,f){return A.bsH(a,b,c,d,e,f)}}
 A.a1l.prototype={
 alV(a){var s=t.Tr
-s=A.a1(new A.a0(B.RJ,new A.aC_(a),s),s.h("ao.E"))
+s=A.a1(new A.a0(B.RI,new A.aC_(a),s),s.h("ao.E"))
 return s},
 k(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -73360,7 +73360,7 @@ gcR(){return new A.bi(new A.b_j(this),t.mN)},
 gG4(){return 14},
 gIh(){return 14},
 gJn(){return 14},
-gJS(){return B.SL},
+gJS(){return B.SK},
 gxF(){return 31},
 gxH(){return 51},
 gK0(){return B.a0j},
@@ -73458,7 +73458,7 @@ gJn(){return 14},
 gakP(){return 48},
 gakQ(){return 40},
 gXi(){return 52},
-gJS(){return B.S6},
+gJS(){return B.S5},
 gxF(){return 32},
 gxH(){return 52},
 gK0(){return B.a0k},
@@ -77121,7 +77121,7 @@ return new A.u2(r.a.dK(s.gkT()),r.b,r.c)},
 e4(a){var s=this.b
 return s.a.c.e4(a.M(0,s.gkT()))},
 w7(){var s,r,q=this.b,p=q.gkT()
-if(!isFinite(p.a)||!isFinite(p.b))return B.S3
+if(!isFinite(p.a)||!isFinite(p.b))return B.S2
 s=q.f
 if(s==null){s=q.a.c.w7()
 q.f=s}if(p.k(0,B.h))r=s
@@ -87114,7 +87114,7 @@ break
 case 1:return A.u(q,r)}})
 return A.v($async$ND,r)},
 aqv(a,b){var s,r,q,p
-if(a===b)return B.Sd
+if(a===b)return B.Sc
 s=A.a([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.fT(B.hF,a)
@@ -88998,7 +88998,7 @@ A.qt.prototype={}
 A.a1L.prototype={
 oF(a,b,c){var s,r,q,p,o,n=$.ad.ac$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.W,r=0;r<2;++r){q=B.RT[r]
+for(s=t.W,r=0;r<2;++r){q=B.RS[r]
 p=n.e
 p.toString
 o=A.b6k(p,q,s)
@@ -89235,7 +89235,7 @@ r=n.gavz()
 q=n.a
 q=q.ch
 q.toString
-l.a=A.bva(!0,A.bfl(B.t,r,s,q,A.bkB(),n.gaxC(),m,n.gayC(),B.S7,!0,"nav",B.a77),"Navigator Scope",!0,m,m,m,m)}else{s=n.a.z
+l.a=A.bva(!0,A.bfl(B.t,r,s,q,A.bkB(),n.gaxC(),m,n.gayC(),B.S6,!0,"nav",B.a77),"Navigator Scope",!0,m,m,m,m)}else{s=n.a.z
 if(s!=null){r=s.d
 r===$&&A.b()
 q=s.e
@@ -91713,7 +91713,7 @@ h.PQ()
 r=h.garB()
 q=q.AY
 h.e!==$&&A.b0()
-h.e=new A.a3k(s,new A.ch(B.Un,l,t.kr),new A.y3(),p,B.d4,0,j,h.gauh(),h.gauj(),r,B.d4,0,i,h.gaub(),h.gaud(),r,k,B.Sn,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.XU(),new A.XU())
+h.e=new A.a3k(s,new A.ch(B.Un,l,t.kr),new A.y3(),p,B.d4,0,j,h.gauh(),h.gauj(),r,B.d4,0,i,h.gaub(),h.gaud(),r,k,B.Sm,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.XU(),new A.XU())
 return h},
 Eu(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -95181,7 +95181,7 @@ if(b==null)return!1
 if(J.a6(b)!==A.B(s))return!1
 return b instanceof A.aH&&b.a===s.a&&b.b==s.b&&b.c==s.c&&b.d===s.d&&A.dh(null,null)},
 gA(a){var s=this
-return A.Y(s.a,s.b,s.c,s.d,A.c4(B.Sg),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.Y(s.a,s.b,s.c,s.d,A.c4(B.Sf),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){return"IconData(U+"+B.c.hD(B.e.mz(this.a,16).toUpperCase(),5,"0")+")"}}
 A.xH.prototype={
 cT(a){return!this.w.k(0,a.w)},
@@ -96174,7 +96174,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 a2=a3==null?a2.b.c.Q:a3
-a=new A.LM(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.C3(a1),B.Sb,e===!0,d,c,b,a2)
+a=new A.LM(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.C3(a1),B.Sa,e===!0,d,c,b,a2)
 if(!a.k(0,a0.e))a0.a3(new A.aWc(a0,a))},
 Hb(){if(this.d==null)this.vR()},
 Rf(){this.vR()},
@@ -97016,7 +97016,7 @@ F(a){var s,r,q=this,p=null,o=q.gatA(),n=A.tW(a),m=q.cJ$,l=q.d
 l===$&&A.b()
 s=q.a.ay
 if(l.gT()==null){r=q.gXN()
-r=J.q0(r.slice(0),A.a2(r).c)}else r=B.S9
+r=J.q0(r.slice(0),A.a2(r).c)}else r=B.S8
 return new A.xE(p,new A.el(new A.aAS(q,a),A.xY(B.c2,new A.W_(!1,A.b7l(A.Ct(!0,p,A.a5a(m,new A.DE(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),p,o,q.gax_(),p,p,p,p,o),p,t.w3),p)}}
 A.aAN.prototype={
 $1(a){var s=this.a.c
@@ -102621,7 +102621,7 @@ r.FP()
 return s.aO()},
 m(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gNG(),p=0;p<s.length;s.length===r||(0,A.R)(s),++p)s[p].I(0,q)
-o.b=B.Sc
+o.b=B.Sb
 o.y=!1
 o.dL()},
 fn(a,b){return a.qf(b)},
@@ -103701,7 +103701,7 @@ r=(s.length===0?r+"no children":r+A.p(s))+")"
 return r.charCodeAt(0)==0?r:r}}
 A.ka.prototype={}
 A.OM.prototype={
-c5(a){return new A.aeT(B.S_,A.dw(t.Q),this,B.ap)},
+c5(a){return new A.aeT(B.RZ,A.dw(t.Q),this,B.ap)},
 aY(a){var s,r,q,p,o,n,m=this,l=m.c,k=l.length
 l=k!==0?l[0].c.length:0
 s=a.aj(t.I).w
@@ -103710,7 +103710,7 @@ q=t.S
 p=t.rZ
 o=t.bu
 n=A.a([],t.n)
-l=new A.uX(B.RZ,l,k,m.d,B.pL,s,m.r,r,m.w,null,A.z(q,p),A.z(q,o),A.z(p,o),n,new A.b7(),A.aF(t.T))
+l=new A.uX(B.RY,l,k,m.d,B.pL,s,m.r,r,m.w,null,A.z(q,p),A.z(q,o),A.z(p,o),n,new A.b7(),A.aF(t.T))
 l.aW()
 k=A.a([],t.iG)
 B.b.sB(k,l.L*l.N)
@@ -103771,7 +103771,7 @@ g=h==null
 if(!g&&r.aA(0,h)){g=r.i(0,h)
 g.toString
 j.D(0,g)
-f=g}else f=g&&l.v()?p.gK(0).b:B.S0
+f=g}else f=g&&l.v()?p.gK(0).b:B.S_
 g=n.c
 e=g.length
 d=A.a(new Array(e),m)
@@ -107061,7 +107061,7 @@ return!0}else if(p.at!=null)a.D(0,p)
 if(q>e)return this.OZ(a,s,r,q,e)
 return!1},
 P_(a,b,c,d,e){var s,r,q,p,o,n,m,l,k,j
-for(s=d+1,r=s<e,q=2*b,p=2*c,o=this.a,n=0;n<4;++n){m=B.SJ[n]
+for(s=d+1,r=s<e,q=2*b,p=2*c,o=this.a,n=0;n<4;++n){m=B.SI[n]
 l=m.a
 k=m.b
 j=o.i(0,new A.fY(s,q+l,p+k))
@@ -107315,7 +107315,7 @@ p.n(0,"x",B.d.j(r))
 q=b.b
 p.n(0,"y",B.d.j(q))
 p.n(0,"z",B.e.j(s))
-r=B.RL[B.d.av(r+q,3)]
+r=B.RK[B.d.av(r+q,3)]
 p.n(0,"s",r)
 r=c.db
 r===$&&A.b()
@@ -108398,7 +108398,7 @@ A.aS8.prototype={
 $1(a){return this.a.$2(a,this.b)},
 $S:15}
 A.aS9.prototype={
-$5(a,b,c,d,e){var s=a.gA(a),r=this.a.a,q=r.r,p=d==null?B.S8:d,o=r.w
+$5(a,b,c,d,e){var s=a.gA(a),r=this.a.a,q=r.r,p=d==null?B.S7:d,o=r.w
 return A.bhI(q,r.y,r.z,new A.pR(s,t.bT),c,b.d,a,e,p,o)},
 $S:657}
 A.aSa.prototype={
@@ -108458,7 +108458,7 @@ a_i(a){return new A.a0(a,new A.aGg(),A.a2(a).h("a0<1,i>")).bA(0," => ")},
 j(a){return"RouterConfiguration: "+A.p(this.a.a.a)},
 aIR(){var s,r,q=new A.cv("")
 q.a="Full paths for routes:\n"
-this.Zk(this.a.a.a,"",B.Sa,q)
+this.Zk(this.a.a.a,"",B.S9,q)
 s=this.d
 if(s.a!==0){q.a+="known full paths for route names:\n"
 for(s=new A.cS(s,A.n(s).h("cS<1,2>")).gae(0);s.v();){r=s.d
@@ -111773,7 +111773,7 @@ A.kL.prototype={
 H(){return"PermissionStatus."+this.b}}
 A.uI.prototype={}
 A.cm.prototype={
-j(a){return"Permission."+B.RG[this.a]},
+j(a){return"Permission."+B.RF[this.a]},
 k(a,b){if(b==null)return!1
 if(this===b)return!0
 if(J.a6(b)!==A.B(this))return!1
@@ -111794,7 +111794,7 @@ break
 case 1:return A.u(q,r)}})
 return A.v($async$lR,r)}}
 A.b41.prototype={
-$2(a,b){return new A.aW(B.RP[a],[B.z0,B.nE,B.WO,B.WP,B.z1,B.WQ][b],t.gM)},
+$2(a,b){return new A.aW(B.RO[a],[B.z0,B.nE,B.WO,B.WP,B.z1,B.WQ][b],t.gM)},
 $S:706}
 A.b4d.prototype={
 $1(a){return a.a},
@@ -120250,7 +120250,7 @@ if(B.c.ba(s,"/dashboard/controls"))return 2
 if(B.c.ba(s,"/dashboard/costs"))return 3
 if(B.c.ba(s,"/dashboard/settings"))return 4
 return 0},
-F(a){return A.eb(null,B.q,A.eH(B.aK,A.a([B.fn,A.ob(0,this.c)],t.p),B.F,B.aO),A.beh(new A.a0N(this.gaBI(),B.Rr,new A.awY(a),B.q,0,B.q,null),0.85,2,B.MW),!0,!1)}}
+F(a){return A.eb(null,B.q,A.eH(B.aK,A.a([B.fn,A.ob(0,this.c)],t.p),B.F,B.aO),A.beh(new A.a0N(this.gaBI(),B.Rq,new A.awY(a),B.q,0,B.q,null),0.85,2,B.MW),!0,!1)}}
 A.awY.prototype={
 $1(a){var s=this,r=null
 switch(a){case 0:A.eZ(s.a).l3(0,"/dashboard",r)
@@ -121529,7 +121529,7 @@ s=A.a([],s)
 if(h.length!==0){m=j.k3
 s.push(A.Le(k,1.5,k,A.Q(77,m.l()>>>16&255,m.l()>>>8&255,m.l()&255),0.2,A.a([6,4],t.t),B.rw,B.jk,k,!0,!1,!1,!1,B.jy,!1,10,B.km,!0,B.hE,h))}if(i.length!==0)s.push(A.Le(k,2.5,A.ak5(!1,A.Q(20,e.l()>>>16&255,e.l()>>>8&255,e.l()&255),0,k,!0,B.lk),e,0.2,k,B.rw,B.jk,k,!0,!1,!1,!1,B.jy,!1,10,B.km,!0,B.hE,i))
 B.b.J(s,r)
-return new A.az(B.hu,A.b2(A.a([new A.az(B.Mo,d,k),A.cV(new A.Ld(A.b7R(k,k,k,B.S4,n,B.Hl,new A.Ch(B.ty,f,!0),new A.Cm(!1,!0,o,new A.b_E(j),A.b3D(),!0,6,new A.b_F(j),A.b3D()),s,new A.D4(new A.Li(B.ar,0,new A.b_G(),new A.b_H()),A.bkx(),10,A.bku(),!0,A.bkw(),A.bkv(),!0,new A.b_I(l),k,k),24,g.f,0,g.e,B.Yl,0,B.S5,new A.Cs(!0,new A.pf(16,k,new A.qF(!0,new A.b_J(j),38,k,!0,!0),!0),B.po,B.po,new A.pf(16,k,new A.qF(l.f,new A.b_K(j),22,3,!0,!0),!0))),B.a_,B.cN,k,k),120,k)],t.p),B.N,B.k,B.n),k)},
+return new A.az(B.hu,A.b2(A.a([new A.az(B.Mo,d,k),A.cV(new A.Ld(A.b7R(k,k,k,B.S3,n,B.Hl,new A.Ch(B.ty,f,!0),new A.Cm(!1,!0,o,new A.b_E(j),A.b3D(),!0,6,new A.b_F(j),A.b3D()),s,new A.D4(new A.Li(B.ar,0,new A.b_G(),new A.b_H()),A.bkx(),10,A.bku(),!0,A.bkw(),A.bkv(),!0,new A.b_I(l),k,k),24,g.f,0,g.e,B.Yl,0,B.S4,new A.Cs(!0,new A.pf(16,k,new A.qF(!0,new A.b_J(j),38,k,!0,!0),!0),B.po,B.po,new A.pf(16,k,new A.qF(l.f,new A.b_K(j),22,3,!0,!0),!0))),B.a_,B.cN,k,k),120,k)],t.p),B.N,B.k,B.n),k)},
 a1n(a,b){var s,r,q,p,o,n
 if(a.length===0)return null
 s=B.b.gR(a)
@@ -122051,7 +122051,7 @@ return s.a>0||s.b>0||s.c>0},
 $S:290}
 A.aWo.prototype={
 $1(a){var s=null
-return new A.t1(A.Z(B.RR[a.b]+"\n"+a.a,s,s,s,s,s,s))},
+return new A.t1(A.Z(B.RQ[a.b]+"\n"+a.a,s,s,s,s,s,s))},
 $S:948}
 A.aWp.prototype={
 $1(a){var s=null,r=a.c,q=r.b,p=this.a.d
@@ -123165,7 +123165,7 @@ return A.q(A.a1i(),$async$zF)
 case 2:q=c
 p=t.N
 s=3
-return A.q(A.b4L(A.es(null,null,"level7tech@gmail.com",null,A.bsw(A.ag(["subject","SolarIQ Support Request","body","\n\n\n---\nApp: SolarIQ "+q.c+"+"+q.d+"\n"],p,p)),null,"mailto")),$async$zF)
+return A.q(A.b4L(A.es(null,null,"level7tech@gmail.com",null,A.bsw(A.ag(["subject","Solar-IQ Support Request","body","\n\n\n---\nApp: Solar-IQ "+q.c+"+"+q.d+"\n"],p,p)),null,"mailto")),$async$zF)
 case 3:return A.u(null,r)}})
 return A.v($async$zF,r)}}
 A.amL.prototype={
@@ -123202,7 +123202,7 @@ F(a){var s=A.D(a)
 return A.eb(A.hh(null,B.EG),B.q,A.eH(B.aK,A.a([B.fn,A.ob(0,new A.dQ(new A.auk(s),null))],t.p),B.F,B.aO),null,!1,!0)}}
 A.auk.prototype={
 $1(a){var s=null,r=A.bB(a,s,t.w).w.r,q=this.a
-return A.xX(A.a([new A.a9Z(q,s),B.W,new A.vZ("Getting Started",q,s),B.a9h,B.a9n,B.a9f,B.T,new A.vZ("Live Monitoring",q,s),B.a9k,B.a9i,B.a9c,B.T,new A.vZ("Costs & ROI",q,s),B.a9l,B.a9d,B.T,new A.vZ("Notifications",q,s),B.a9g,B.a9m,B.T,new A.vZ("Privacy & Data",q,s),B.a9j,B.a9e,B.W,B.aaW,B.cB],t.p),s,new A.ai(16,16+r.b,16,16+r.d))},
+return A.xX(A.a([new A.a9Z(q,s),B.W,new A.vZ("Getting Started",q,s),B.a9h,B.a9n,B.a9f,B.T,new A.vZ("Live Monitoring",q,s),B.a9l,B.a9j,B.a9c,B.T,new A.vZ("Costs & ROI",q,s),B.a9i,B.a9d,B.T,new A.vZ("Notifications",q,s),B.a9g,B.a9m,B.T,new A.vZ("Privacy & Data",q,s),B.a9k,B.a9e,B.W,B.aaW,B.cB],t.p),s,new A.ai(16,16+r.b,16,16+r.d))},
 $S:84}
 A.a9Z.prototype={
 F(a){var s,r=null,q=this.c,p=q.ax,o=p.b,n=A.a([o.cF(0.12),o.cF(0.04)],t.t_),m=A.ci(14),l=A.mk(o.cF(0.2),1),k=o.cF(0.15)
@@ -123215,7 +123215,7 @@ if(q==null)q=r
 else{s=p.k3
 s=q.QW(A.Q(153,s.l()>>>16&255,s.l()>>>8&255,s.l()&255),1.5)
 q=s}s=t.p
-return A.cE(r,A.bO(A.a([k,B.oj,A.d9(A.b2(A.a([o,B.aE,A.Z("Answers to common questions about using SolarIQ. Can't find what you need? Email us.",r,r,r,q,r,r)],s),B.N,B.k,B.n),1)],s),B.r,B.k,B.n,0,r),B.t,r,r,new A.cs(r,r,l,m,r,new A.jM(B.cH,B.fW,B.c6,n,r,r),B.ab),r,r,r,B.br,r)}}
+return A.cE(r,A.bO(A.a([k,B.oj,A.d9(A.b2(A.a([o,B.aE,A.Z("Answers to common questions about using Solar-IQ. Can't find what you need? Email us.",r,r,r,q,r,r)],s),B.N,B.k,B.n),1)],s),B.r,B.k,B.n,0,r),B.t,r,r,new A.cs(r,r,l,m,r,new A.jM(B.cH,B.fW,B.c6,n,r,r),B.ab),r,r,r,B.br,r)}}
 A.vZ.prototype={
 F(a){var s=null,r=this.d,q=r.ok.ax
 r=q==null?s:q.aIs(r.ax.b,B.a0,1.1)
@@ -123491,11 +123491,11 @@ A.DX.prototype={
 F(a){return A.eb(A.hh(null,B.EE),B.q,A.eH(B.aK,A.a([B.fn,A.ob(0,new A.dQ(new A.aD3(),null))],t.p),B.F,B.aO),null,!1,!0)}}
 A.aD3.prototype={
 $1(a){var s=A.bB(a,null,t.w).w.r
-return A.xX(B.Rf,null,new A.ai(16,16+s.b,16,16+s.d))},
+return A.xX(B.Re,null,new A.ai(16,16+s.b,16,16+s.d))},
 $S:84}
 A.aa9.prototype={
 F(a){var s=null,r=A.D(a).ax,q=r.b,p=A.a([q.cF(0.12),q.cF(0.04)],t.t_),o=A.ci(14),n=A.mk(q.cF(0.2),1),m=q.cF(0.15),l=r.k3,k=t.p
-return A.cE(s,A.bO(A.a([A.cE(s,A.b5(B.Od,q,s,26),B.t,s,s,new A.cs(m,s,s,s,s,s,B.bY),s,s,s,B.m4,s),B.oj,A.d9(A.b2(A.a([A.Z("Your privacy matters",s,s,s,A.a9(s,s,l,s,s,s,s,s,s,s,s,16,s,s,B.a0,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.aE,A.Z("How SolarIQ collects, uses and protects your data.",s,s,s,A.a9(s,s,A.Q(153,l.l()>>>16&255,l.l()>>>8&255,l.l()&255),s,s,s,s,s,s,s,s,12,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s),s,s),B.aE,A.Z("Last updated: April 2026",s,s,s,A.a9(s,s,A.Q(115,l.l()>>>16&255,l.l()>>>8&255,l.l()&255),s,s,s,s,s,s,s,s,11,B.rB,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)],k),B.N,B.k,B.n),1)],k),B.r,B.k,B.n,0,s),B.t,s,s,new A.cs(s,s,n,o,s,new A.jM(B.cH,B.fW,B.c6,p,s,s),B.ab),s,s,s,B.br,s)}}
+return A.cE(s,A.bO(A.a([A.cE(s,A.b5(B.Od,q,s,26),B.t,s,s,new A.cs(m,s,s,s,s,s,B.bY),s,s,s,B.m4,s),B.oj,A.d9(A.b2(A.a([A.Z("Your privacy matters",s,s,s,A.a9(s,s,l,s,s,s,s,s,s,s,s,16,s,s,B.a0,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.aE,A.Z("How Solar-IQ collects, uses and protects your data.",s,s,s,A.a9(s,s,A.Q(153,l.l()>>>16&255,l.l()>>>8&255,l.l()&255),s,s,s,s,s,s,s,s,12,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s),s,s),B.aE,A.Z("Last updated: April 2026",s,s,s,A.a9(s,s,A.Q(115,l.l()>>>16&255,l.l()>>>8&255,l.l()&255),s,s,s,s,s,s,s,s,11,B.rB,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)],k),B.N,B.k,B.n),1)],k),B.r,B.k,B.n,0,s),B.t,s,s,new A.cs(s,s,n,o,s,new A.jM(B.cH,B.fW,B.c6,p,s,s),B.ab),s,s,s,B.br,s)}}
 A.m3.prototype={
 F(a){var s=null,r=A.D(a).ax,q=r.k3
 return new A.az(B.m3,A.ej(new A.az(B.eQ,A.b2(A.a([A.Z(this.c,s,s,s,A.a9(s,s,r.b,s,s,s,s,s,s,s,s,14,s,s,B.a0,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.T,A.Z(this.d,s,s,s,A.a9(s,s,A.Q(204,q.l()>>>16&255,q.l()>>>8&255,q.l()&255),s,s,s,s,s,s,s,s,13,s,s,s,s,1.6,!0,s,s,s,s,s,s,s,s),s,s)],t.p),B.N,B.k,B.n),s),s),s)}}
@@ -123731,7 +123731,7 @@ p=p.ax.k3
 s=t.p
 r=A.d9(A.b2(A.a([A.Z("Theme",q,q,q,A.a9(q,q,p,q,q,q,q,q,q,q,q,13,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),B.dv,A.Z("App appearance",q,q,q,A.a9(q,q,A.Q(102,p.l()>>>16&255,p.l()>>>8&255,p.l()&255),q,q,q,q,q,q,q,q,11,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q)],s),B.N,B.k,B.n),1)
 p=A.mm(q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,B.yI,new A.b8(A.a9(q,q,p,q,q,q,q,q,q,q,q,11,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),t.RP),B.F2)
-return new A.az(B.m5,A.bO(A.a([r,new A.Ez(B.Sz,A.cT([o],t.jm),new A.b0w(b),p,!1,q,t.sQ)],s),B.r,B.k,B.n,0,q),q)}}
+return new A.az(B.m5,A.bO(A.a([r,new A.Ez(B.Sy,A.cT([o],t.jm),new A.b0w(b),p,!1,q,t.sQ)],s),B.r,B.k,B.n,0,q),q)}}
 A.b0w.prototype={
 $1(a){this.a.bW(0,$.b6d().gea(),t.vl).b4(0,a.gR(a))},
 $S:986}
@@ -123796,11 +123796,11 @@ A.F4.prototype={
 F(a){return A.eb(A.hh(null,B.EI),B.q,A.eH(B.aK,A.a([B.fn,A.ob(0,new A.dQ(new A.aLY(),null))],t.p),B.F,B.aO),null,!1,!0)}}
 A.aLY.prototype={
 $1(a){var s=A.bB(a,null,t.w).w.r
-return A.xX(B.R2,null,new A.ai(16,16+s.b,16,16+s.d))},
+return A.xX(B.SM,null,new A.ai(16,16+s.b,16,16+s.d))},
 $S:84}
 A.a9q.prototype={
 F(a){var s=null,r=A.D(a).ax,q=r.b,p=A.a([q.cF(0.12),q.cF(0.04)],t.t_),o=A.ci(14),n=A.mk(q.cF(0.2),1),m=q.cF(0.15),l=r.k3,k=t.p
-return A.cE(s,A.bO(A.a([A.cE(s,A.b5(B.O_,q,s,26),B.t,s,s,new A.cs(m,s,s,s,s,s,B.bY),s,s,s,B.m4,s),B.oj,A.d9(A.b2(A.a([A.Z("The rules of the road",s,s,s,A.a9(s,s,l,s,s,s,s,s,s,s,s,16,s,s,B.a0,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.aE,A.Z("Please read these carefully before using SolarIQ.",s,s,s,A.a9(s,s,A.Q(153,l.l()>>>16&255,l.l()>>>8&255,l.l()&255),s,s,s,s,s,s,s,s,12,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s),s,s),B.aE,A.Z("Last updated: April 2026",s,s,s,A.a9(s,s,A.Q(115,l.l()>>>16&255,l.l()>>>8&255,l.l()&255),s,s,s,s,s,s,s,s,11,B.rB,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)],k),B.N,B.k,B.n),1)],k),B.r,B.k,B.n,0,s),B.t,s,s,new A.cs(s,s,n,o,s,new A.jM(B.cH,B.fW,B.c6,p,s,s),B.ab),s,s,s,B.br,s)}}
+return A.cE(s,A.bO(A.a([A.cE(s,A.b5(B.O_,q,s,26),B.t,s,s,new A.cs(m,s,s,s,s,s,B.bY),s,s,s,B.m4,s),B.oj,A.d9(A.b2(A.a([A.Z("The rules of the road",s,s,s,A.a9(s,s,l,s,s,s,s,s,s,s,s,16,s,s,B.a0,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.aE,A.Z("Please read these carefully before using Solar-IQ.",s,s,s,A.a9(s,s,A.Q(153,l.l()>>>16&255,l.l()>>>8&255,l.l()&255),s,s,s,s,s,s,s,s,12,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s),s,s),B.aE,A.Z("Last updated: April 2026",s,s,s,A.a9(s,s,A.Q(115,l.l()>>>16&255,l.l()>>>8&255,l.l()&255),s,s,s,s,s,s,s,s,11,B.rB,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s)],k),B.N,B.k,B.n),1)],k),B.r,B.k,B.n,0,s),B.t,s,s,new A.cs(s,s,n,o,s,new A.jM(B.cH,B.fW,B.c6,p,s,s),B.ab),s,s,s,B.br,s)}}
 A.l2.prototype={
 F(a){var s=null,r=A.D(a).ax,q=r.k3
 return new A.az(B.m3,A.ej(new A.az(B.eQ,A.b2(A.a([A.Z(this.c,s,s,s,A.a9(s,s,r.b,s,s,s,s,s,s,s,s,14,s,s,B.a0,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.T,A.Z(this.d,s,s,s,A.a9(s,s,A.Q(204,q.l()>>>16&255,q.l()>>>8&255,q.l()&255),s,s,s,s,s,s,s,s,13,s,s,s,s,1.6,!0,s,s,s,s,s,s,s,s),s,s)],t.p),B.N,B.k,B.n),s),s),s)}}
@@ -125191,7 +125191,7 @@ A.ZT.prototype={
 F(a){var s,r=null,q=A.D(a).ax,p=A.D(a).ax.a===B.ax,o=A.cE(r,r,B.t,q.k2,r,r,r,r,r,r,r),n=A.ii(r,r,r,new A.a9o(p?B.o.cF(0.1):B.p.cF(0.08),32,r),B.I),m=p?0.28:0.22
 m=q.b.cF(m)
 s=p?0.12:0.1
-return new A.j5(A.eH(B.aK,A.a([o,n,A.kw(A.C0(B.ie,new A.cs(r,r,r,r,r,new A.yO(B.FU,0.95,B.c6,r,0,A.a([m,q.y.cF(s),B.q],t.t_),B.RV,r),B.ab),B.dj),!0,r)],t.p),B.F,B.a0M),r)}}
+return new A.j5(A.eH(B.aK,A.a([o,n,A.kw(A.C0(B.ie,new A.cs(r,r,r,r,r,new A.yO(B.FU,0.95,B.c6,r,0,A.a([m,q.y.cF(s),B.q],t.t_),B.RU,r),B.ab),B.dj),!0,r)],t.p),B.F,B.a0M),r)}}
 A.a9o.prototype={
 aF(a,b){var s,r,q,p,o,n,m,l
 $.ae()
@@ -130423,8 +130423,8 @@ B.FM=new A.hM(!0,240,95,null,null,null,null,null)
 B.pc=new A.hM(!0,15,null,null,null,null,null,null)
 B.FN=new A.hM(!0,60,null,null,null,3000,30,null)
 B.FO=new A.hM(!0,30,10,null,null,null,null,null)
-B.Se=s([],A.ax("F<t3>"))
-B.FP=new A.iO(B.Se,0)
+B.Sd=s([],A.ax("F<t3>"))
+B.FP=new A.iO(B.Sd,0)
 B.FR=new A.iP(0,1)
 B.FS=new A.iP(0,-1)
 B.pd=new A.iP(1,0)
@@ -130879,7 +130879,7 @@ B.Ig=new A.aNN()
 B.Z=new A.a5h()
 B.bz=new A.a5i()
 B.fH=new A.a5o(0,0,0,0)
-B.Sb=s([],A.ax("F<aov>"))
+B.Sa=s([],A.ax("F<aov>"))
 B.abn=new A.aO3()
 B.bS={}
 B.cT=new A.cb(B.bS,[],t.li)
@@ -131415,8 +131415,8 @@ B.ji=new A.pJ(!1,!1,!1,!0)
 B.mH=new A.pJ(!0,!1,!1,!1)
 B.mI=new A.pJ(!0,!1,!1,!0)
 B.ty=s([],A.ax("F<jF>"))
-B.Sf=s([],t.uM)
-B.abv=new A.Ch(B.ty,B.Sf,!0)
+B.Se=s([],t.uM)
+B.abv=new A.Ch(B.ty,B.Se,!0)
 B.rv=new A.arf(0,"center")
 B.MI=new A.K0(null)
 B.ct=new A.xk(0,"none")
@@ -131763,10 +131763,10 @@ B.tm=new A.xW(3,"center")
 B.Q8=new A.xW(4,"bottom")
 B.e2=s([82,9,106,213,48,54,165,56,191,64,163,158,129,243,215,251,124,227,57,130,155,47,255,135,52,142,67,68,196,222,233,203,84,123,148,50,166,194,35,61,238,76,149,11,66,250,195,78,8,46,161,102,40,217,36,178,118,91,162,73,109,139,209,37,114,248,246,100,134,104,152,22,212,164,92,204,93,101,182,146,108,112,72,80,253,237,185,218,94,21,70,87,167,141,157,132,144,216,171,0,140,188,211,10,247,228,88,5,184,179,69,6,208,44,30,143,202,63,15,2,193,175,189,3,1,19,138,107,58,145,17,65,79,103,220,234,151,242,207,206,240,180,230,115,150,172,116,34,231,173,53,133,226,249,55,232,28,117,223,110,71,241,26,113,29,41,197,137,111,183,98,14,170,24,190,27,252,86,62,75,198,210,121,32,154,219,192,254,120,205,90,244,31,221,168,51,136,7,199,49,177,18,16,89,39,128,236,95,96,81,127,169,25,181,74,13,45,229,122,159,147,201,156,239,160,224,59,77,174,42,245,176,200,235,187,60,131,83,153,97,23,43,4,126,186,119,214,38,225,105,20,99,85,33,12,125],t.t)
 B.Qb=s([110,117,108,108],t.t)
-B.RM=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
-B.Rt=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
+B.RL=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
+B.Rs=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.SQ=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
-B.Qc=s([B.RM,B.Rt,B.SQ],t.zg)
+B.Qc=s([B.RL,B.Rs,B.SQ],t.zg)
 B.tn=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
 B.Qd=s([239,191,189],t.t)
 B.YW=new A.h0(30,1)
@@ -131793,21 +131793,21 @@ B.Z0=new A.h0(8000,1000)
 B.YU=new A.h0(180,10)
 B.FB=new A.hL("sustained_high_load","Sustained High Load","Load stays above threshold for a continuous duration","\ud83d\udd25",null,null,null,B.Z0,B.YU,null,B.CN,5)
 B.Z2=new A.h0(90,10)
-B.SC=s([22,23,0,1,2,3,4,5,6],t.t)
+B.SB=s([22,23,0,1,2,3,4,5,6],t.t)
 B.YX=new A.h0(360,30)
-B.Fx=new A.hL("nighttime_low_battery","Low Battery for the Night","After a configured hour, warn if battery is too low","\ud83c\udf19",B.Z2,null,null,null,null,B.SC,B.YX,5)
+B.Fx=new A.hL("nighttime_low_battery","Low Battery for the Night","After a configured hour, warn if battery is too low","\ud83c\udf19",B.Z2,null,null,null,null,B.SB,B.YX,5)
 B.YR=new A.h0(1e4,2000)
 B.Fy=new A.hL("peak_load","Peak Load","Instantaneous load spike above the maximum","\ud83d\udcc8",null,null,null,B.YR,null,null,B.nL,5)
 B.Qg=s([B.FC,B.FA,B.FF,B.Fw,B.FD,B.FE,B.Fv,B.Fz,B.FB,B.Fx,B.Fy],A.ax("F<hL>"))
 B.QC=s([4,9,14,19],t.t)
-B.SA=s([137,80,78,71,13,10,26,10],t.Z)
+B.Sz=s([137,80,78,71,13,10,26,10],t.Z)
 B.OV=new A.u6(0,"png")
 B.P2=new A.nT(B.OV,!1,0,"png")
-B.OT=new A.pX(B.SA,B.P2,0,"png")
-B.SB=s([71,73,70,56,55,97],t.Z)
-B.OS=new A.pX(B.SB,B.jt,1,"gif87a")
-B.RI=s([71,73,70,56,57,97],t.Z)
-B.OR=new A.pX(B.RI,B.jt,2,"gif89a")
+B.OT=new A.pX(B.Sz,B.P2,0,"png")
+B.SA=s([71,73,70,56,55,97],t.Z)
+B.OS=new A.pX(B.SA,B.jt,1,"gif87a")
+B.RH=s([71,73,70,56,57,97],t.Z)
+B.OR=new A.pX(B.RH,B.jt,2,"gif89a")
 B.Qe=s([255,216,255],t.Z)
 B.OW=new A.u6(2,"jpeg")
 B.P6=new A.nT(B.OW,!1,3,"jpeg")
@@ -131823,10 +131823,10 @@ B.p6=new A.SU(0,"named")
 B.Fp=new A.SU(1,"anonymous")
 B.QN=s([B.p6,B.Fp],A.ax("F<SU>"))
 B.QO=s(["January","February","March","April","May","June","July","August","September","October","November","December"],t.s)
-B.Rv=s([0.41233895,0.35762064,0.18051042],t.n)
-B.Ra=s([0.2126,0.7152,0.0722],t.n)
-B.SM=s([0.01932141,0.11916382,0.95034478],t.n)
-B.e3=s([B.Rv,B.Ra,B.SM],t.zg)
+B.Ru=s([0.41233895,0.35762064,0.18051042],t.n)
+B.R9=s([0.2126,0.7152,0.0722],t.n)
+B.SL=s([0.01932141,0.11916382,0.95034478],t.n)
+B.e3=s([B.Ru,B.R9,B.SL],t.zg)
 B.to=s([0,4,12,1,5,13,3,7,15],t.t)
 B.QR=s([1,2,4,8,16,32,64,128,27,54,108,216,171,77,154,47,94,188,99,198,151,53,106,212,179,125,250,239,197,145],t.t)
 B.QS=s([65533],t.t)
@@ -131842,59 +131842,47 @@ B.a9C=new A.k6(0.925,0.5)
 B.a9w=new A.k6(0.9625,0.75)
 B.a9x=new A.k6(1,1)
 B.R1=s([B.a9v,B.a9A,B.a9D,B.a9F,B.a9B,B.a9z,B.a9y,B.a9E,B.a9C,B.a9w,B.a9x],A.ax("F<k6>"))
-B.a9t=new A.a9q(null)
-B.W=new A.dx(null,16,null,null)
-B.aaQ=new A.l2("1. Acceptance",'By creating an account or using the SolarIQ mobile app ("the app"), you agree to these Terms of Service. If you do not agree, do not use the app.',null)
-B.aaL=new A.l2("2. What SolarIQ is","SolarIQ is a third-party client for the Voltronic / AXPERT KING II family of hybrid solar inverters. It communicates with the Shinemonitor cloud using credentials you provide and surfaces live status, charts, cost analytics and notifications. SolarIQ is not affiliated with, endorsed by or certified by Voltronic Power, Shinemonitor, or any other inverter manufacturer.",null)
-B.aaN=new A.l2("3. Your account","You are responsible for keeping your Shinemonitor and SolarIQ credentials confidential. You are responsible for every action taken from your account. Contact support immediately if you suspect unauthorised access.",null)
-B.aaP=new A.l2("4. Acceptable use","You agree not to: reverse-engineer or decompile the app except as permitted by law; use the app to access accounts or inverters that are not yours; abuse the Shinemonitor API through SolarIQ; attempt to disrupt the service; or use the app for anything illegal.",null)
-B.aaM=new A.l2('5. No warranty / "as is"',"SolarIQ is provided AS IS and AS AVAILABLE. Readings, charts and cost estimates are indicative only and depend on data returned by the Shinemonitor API. We do not guarantee accuracy, uptime, or fitness for a particular purpose. Do not rely on the app for safety-critical decisions or for compliance with electrical regulations.",null)
-B.aaO=new A.l2("6. Limitation of liability","To the maximum extent permitted by applicable law, Level7 Tech and its contributors shall not be liable for any indirect, incidental, consequential or punitive damages arising out of your use of the app, including but not limited to damage to inverters, batteries, loads, property, or lost revenue.",null)
-B.aaK=new A.l2("7. Modifications to the service","We may add, change or remove features at any time without notice. Critical changes will be announced inside the app.",null)
-B.aaI=new A.l2("8. Termination","You may stop using SolarIQ at any time and permanently delete your account from Settings \u2192 Delete Account. We may suspend or terminate accounts that violate these terms.",null)
-B.aaJ=new A.l2("9. Governing law","These terms are governed by the laws applicable at the publisher's principal place of business. Any disputes will be handled by the competent courts of that jurisdiction.",null)
-B.aaR=new A.l2("10. Contact","For questions about these Terms, email level7tech@gmail.com.",null)
-B.cB=new A.dx(null,32,null,null)
-B.R2=s([B.a9t,B.W,B.aaQ,B.aaL,B.aaN,B.aaP,B.aaM,B.aaO,B.aaK,B.aaI,B.aaJ,B.aaR,B.cB],t.p)
 B.d3=new A.qN(0,"left")
 B.em=new A.qN(1,"right")
 B.a8=new A.qN(2,"center")
 B.ii=new A.qN(3,"justify")
 B.O=new A.qN(4,"start")
 B.dw=new A.qN(5,"end")
-B.R3=s([B.d3,B.em,B.a8,B.ii,B.O,B.dw],A.ax("F<qN>"))
-B.Rh=s([2,1.13276676],t.n)
+B.R2=s([B.d3,B.em,B.a8,B.ii,B.O,B.dw],A.ax("F<qN>"))
+B.Rg=s([2,1.13276676],t.n)
 B.Qh=s([2.18349805,1.20311921],t.n)
-B.Sq=s([2.33888662,1.28698796],t.n)
-B.Ss=s([2.48660575,1.36351941],t.n)
-B.R6=s([2.62226596,1.44717976],t.n)
-B.Rb=s([2.7514899,1.53385819],t.n)
-B.RF=s([3.36298265,1.98288283],t.n)
-B.Rk=s([4.08649929,2.23811846],t.n)
-B.Rx=s([4.85481134,2.47563463],t.n)
-B.R9=s([5.62945551,2.72948597],t.n)
-B.Ri=s([6.43023796,2.98020421],t.n)
-B.tp=s([B.Rh,B.Qh,B.Sq,B.Ss,B.R6,B.Rb,B.RF,B.Rk,B.Rx,B.R9,B.Ri],t.zg)
-B.R5=s([B.li,B.lj],A.ax("F<I9>"))
-B.R8=s([18,15,10,12,15,18,15,12,12],t.n)
+B.Sp=s([2.33888662,1.28698796],t.n)
+B.Sr=s([2.48660575,1.36351941],t.n)
+B.R5=s([2.62226596,1.44717976],t.n)
+B.Ra=s([2.7514899,1.53385819],t.n)
+B.RE=s([3.36298265,1.98288283],t.n)
+B.Rj=s([4.08649929,2.23811846],t.n)
+B.Rw=s([4.85481134,2.47563463],t.n)
+B.R8=s([5.62945551,2.72948597],t.n)
+B.Rh=s([6.43023796,2.98020421],t.n)
+B.tp=s([B.Rg,B.Qh,B.Sp,B.Sr,B.R5,B.Ra,B.RE,B.Rj,B.Rw,B.R8,B.Rh],t.zg)
+B.R4=s([B.li,B.lj],A.ax("F<I9>"))
+B.R7=s([18,15,10,12,15,18,15,12,12],t.n)
 B.ME=new A.xi(0,"verified")
 B.MF=new A.xi(1,"unverified")
-B.Rc=s([B.ME,B.MF],A.ax("F<xi>"))
+B.Rb=s([B.ME,B.MF],A.ax("F<xi>"))
 B.MG=new A.xj(0,"totp")
 B.MH=new A.xj(1,"phone")
-B.Rd=s([B.MG,B.MH],A.ax("F<xj>"))
-B.Re=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
+B.Rc=s([B.MG,B.MH],A.ax("F<xj>"))
+B.Rd=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
 B.a9G=new A.aa9(null)
-B.a9N=new A.m3("1. Data we collect","SolarIQ connects directly to your Voltronic / AXPERT KING II inverter through the Shinemonitor cloud API using credentials that you provide. We collect:\n\n\u2022 Shinemonitor username and password, stored encrypted in your private Supabase account so the app can poll your inverter.\n\u2022 Inverter telemetry: PV power, load power, battery power and state-of-charge, grid power, daily energy.\n\u2022 Your selected home location (latitude/longitude, optional) used only for local solar irradiance calculations.\n\u2022 Device push-notification token (FCM/APNs) so the server can notify you about grid loss, low battery or critical alerts.\n\u2022 Basic app telemetry such as app version and platform.",null)
+B.W=new A.dx(null,16,null,null)
+B.a9N=new A.m3("1. Data we collect","Solar-IQ connects directly to your Voltronic / AXPERT KING II inverter through the Shinemonitor cloud API using credentials that you provide. We collect:\n\n\u2022 Shinemonitor username and password, stored encrypted in your private Supabase account so the app can poll your inverter.\n\u2022 Inverter telemetry: PV power, load power, battery power and state-of-charge, grid power, daily energy.\n\u2022 Your selected home location (latitude/longitude, optional) used only for local solar irradiance calculations.\n\u2022 Device push-notification token (FCM/APNs) so the server can notify you about grid loss, low battery or critical alerts.\n\u2022 Basic app telemetry such as app version and platform.",null)
 B.a9I=new A.m3("2. How we use your data","Your data is used exclusively to run the monitoring features of the app \u2014 displaying live system status, generating charts, computing cost/ROI analytics, and sending notifications you opted in to. We do not sell, rent, or share your data with advertisers. We do not run third-party ad SDKs inside the app.",null)
-B.a9L=new A.m3("3. Where your data is stored","User accounts, systems and readings are stored in Supabase (Postgres) with row-level security \u2014 each account can only read its own rows. Push tokens are stored only as long as the install is active. Locally, the app keeps a small SQLite cache of recent readings for offline charts; this cache is cleared on sign-out.",null)
+B.a9M=new A.m3("3. Where your data is stored","User accounts, systems and readings are stored in Supabase (Postgres) with row-level security \u2014 each account can only read its own rows. Push tokens are stored only as long as the install is active. Locally, the app keeps a small SQLite cache of recent readings for offline charts; this cache is cleared on sign-out.",null)
 B.a9P=new A.m3("4. Third-party services","\u2022 Shinemonitor cloud \u2014 required to talk to the inverter.\n\u2022 Supabase \u2014 authentication, database, edge functions.\n\u2022 Firebase Cloud Messaging / Apple Push Notification service \u2014 push delivery.\n\nThese providers process your data only to deliver the corresponding feature. Their own privacy policies apply.",null)
-B.a9J=new A.m3("5. Your rights","You can review your data at any time from the Settings screen. You can permanently delete your account and all associated data from Settings \u2192 Delete Account; this is irreversible and cascades to every row tied to your user.",null)
+B.a9K=new A.m3("5. Your rights","You can review your data at any time from the Settings screen. You can permanently delete your account and all associated data from Settings \u2192 Delete Account; this is irreversible and cascades to every row tied to your user.",null)
 B.a9O=new A.m3("6. Security","All network traffic is TLS-encrypted. Credentials are never logged. The app does not transmit your data to any destination other than the services listed above.",null)
-B.a9M=new A.m3("7. Children","SolarIQ is not directed to children under 13 and we do not knowingly collect information from them.",null)
-B.a9K=new A.m3("8. Changes","We may update this policy as the app evolves. Material changes will be announced inside the app.",null)
+B.a9J=new A.m3("7. Children","Solar-IQ is not directed to children under 13 and we do not knowingly collect information from them.",null)
+B.a9L=new A.m3("8. Changes","We may update this policy as the app evolves. Material changes will be announced inside the app.",null)
 B.a9H=new A.m3("9. Contact","Questions about privacy? Email level7tech@gmail.com.",null)
-B.Rf=s([B.a9G,B.W,B.a9N,B.a9I,B.a9L,B.a9P,B.a9J,B.a9O,B.a9M,B.a9K,B.a9H,B.cB],t.p)
+B.cB=new A.dx(null,32,null,null)
+B.Re=s([B.a9G,B.W,B.a9N,B.a9I,B.a9M,B.a9P,B.a9K,B.a9O,B.a9J,B.a9L,B.a9H,B.cB],t.p)
 B.Gh=new A.kk("",6,"userDeleted")
 B.tq=s([B.ex,B.fY,B.dF,B.ey,B.fZ,B.pk,B.Gh,B.pj],A.ax("F<kk>"))
 B.K=s([1353184337,1399144830,3282310938,2522752826,3412831035,4047871263,2874735276,2466505547,1442459680,4134368941,2440481928,625738485,4242007375,3620416197,2151953702,2409849525,1230680542,1729870373,2551114309,3787521629,41234371,317738113,2744600205,3338261355,3881799427,2510066197,3950669247,3663286933,763608788,3542185048,694804553,1154009486,1787413109,2021232372,1799248025,3715217703,3058688446,397248752,1722556617,3023752829,407560035,2184256229,1613975959,1165972322,3765920945,2226023355,480281086,2485848313,1483229296,436028815,2272059028,3086515026,601060267,3791801202,1468997603,715871590,120122290,63092015,2591802758,2768779219,4068943920,2997206819,3127509762,1552029421,723308426,2461301159,4042393587,2715969870,3455375973,3586000134,526529745,2331944644,2639474228,2689987490,853641733,1978398372,971801355,2867814464,111112542,1360031421,4186579262,1023860118,2919579357,1186850381,3045938321,90031217,1876166148,4279586912,620468249,2548678102,3426959497,2006899047,3175278768,2290845959,945494503,3689859193,1191869601,3910091388,3374220536,0,2206629897,1223502642,2893025566,1316117100,4227796733,1446544655,517320253,658058550,1691946762,564550760,3511966619,976107044,2976320012,266819475,3533106868,2660342555,1338359936,2720062561,1766553434,370807324,179999714,3844776128,1138762300,488053522,185403662,2915535858,3114841645,3366526484,2233069911,1275557295,3151862254,4250959779,2670068215,3170202204,3309004356,880737115,1982415755,3703972811,1761406390,1676797112,3403428311,277177154,1076008723,538035844,2099530373,4164795346,288553390,1839278535,1261411869,4080055004,3964831245,3504587127,1813426987,2579067049,4199060497,577038663,3297574056,440397984,3626794326,4019204898,3343796615,3251714265,4272081548,906744984,3481400742,685669029,646887386,2764025151,3835509292,227702864,2613862250,1648787028,3256061430,3904428176,1593260334,4121936770,3196083615,2090061929,2838353263,3004310991,999926984,2809993232,1852021992,2075868123,158869197,4095236462,28809964,2828685187,1701746150,2129067946,147831841,3873969647,3650873274,3459673930,3557400554,3598495785,2947720241,824393514,815048134,3227951669,935087732,2798289660,2966458592,366520115,1251476721,4158319681,240176511,804688151,2379631990,1303441219,1414376140,3741619940,3820343710,461924940,3089050817,2136040774,82468509,1563790337,1937016826,776014843,1511876531,1389550482,861278441,323475053,2355222426,2047648055,2383738969,2302415851,3995576782,902390199,3991215329,1018251130,1507840668,1064563285,2043548696,3208103795,3939366739,1537932639,342834655,2262516856,2180231114,1053059257,741614648,1598071746,1925389590,203809468,2336832552,1100287487,1895934009,3736275976,2632234200,2428589668,1636092795,1890988757,1952214088,1113045200],t.t)
@@ -131909,7 +131897,7 @@ B.bn=new A.hH(7,"suffixIcon")
 B.cn=new A.hH(8,"helperError")
 B.co=new A.hH(9,"counter")
 B.dy=new A.hH(10,"container")
-B.Rj=s([B.bh,B.by,B.aG,B.bE,B.bF,B.bG,B.aB,B.bn,B.cn,B.co,B.dy],A.ax("F<hH>"))
+B.Ri=s([B.bh,B.by,B.aG,B.bE,B.bF,B.bG,B.aB,B.bn,B.cn,B.co,B.dy],A.ax("F<hH>"))
 B.SR=new A.xZ("en",null,"US")
 B.tr=s([B.SR],t.ss)
 B.ts=s([0,41,61,101,131,181,251,301,360],t.n)
@@ -131943,19 +131931,19 @@ B.NK=new A.aH(62318,"MaterialIcons",null,!1)
 B.OI=new A.d6(B.NK,null,null,null,null)
 B.Ou=new A.d6(B.rO,null,null,null,null)
 B.Vt=new A.uv(B.OI,B.Ou,"Settings",null)
-B.Rr=s([B.Vv,B.Vu,B.Vs,B.Vr,B.Vt],t.p)
+B.Rq=s([B.Vv,B.Vu,B.Vs,B.Vr,B.Vt],t.p)
 B.tu=s([0,21,51,121,151,191,271,321,360],t.n)
-B.Rs=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.Rr=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.Gv=new A.X_(2,"outer")
 B.qh=new A.M(0.09803921568627451,0,0,0,B.f)
 B.h=new A.l(0,0)
 B.GT=new A.f9(0.2,B.Gv,B.qh,B.h,11)
-B.Ru=s([B.GT],t.sq)
+B.Rt=s([B.GT],t.sq)
 B.Ee=new A.OG(0,"left")
 B.Ef=new A.OG(1,"right")
-B.Rw=s([B.Ee,B.Ef],A.ax("F<OG>"))
+B.Rv=s([B.Ee,B.Ef],A.ax("F<OG>"))
 B.aA=new A.OW(0,"upstream")
-B.Ry=s([B.aA,B.l],A.ax("F<OW>"))
+B.Rx=s([B.aA,B.l],A.ax("F<OW>"))
 B.ao=new A.P_(0,"rtl")
 B.U=new A.P_(1,"ltr")
 B.n_=s([B.ao,B.U],A.ax("F<P_>"))
@@ -131964,14 +131952,14 @@ B.dz=new A.nd(0,"leading")
 B.c9=new A.nd(1,"title")
 B.dA=new A.nd(2,"subtitle")
 B.fP=new A.nd(3,"trailing")
-B.RE=s([B.dz,B.c9,B.dA,B.fP],A.ax("F<nd>"))
-B.RG=s(["calendar","camera","contacts","location","locationAlways","locationWhenInUse","mediaLibrary","microphone","phone","photos","photosAddOnly","reminders","sensors","sms","speech","storage","ignoreBatteryOptimizations","notification","access_media_location","activity_recognition","unknown","bluetooth","manageExternalStorage","systemAlertWindow","requestInstallPackages","appTrackingTransparency","criticalAlerts","accessNotificationPolicy","bluetoothScan","bluetoothAdvertise","bluetoothConnect","nearbyWifiDevices","videos","audio","scheduleExactAlarm","sensorsAlways","calendarWriteOnly","calendarFullAccess","assistant","backgroundRefresh"],t.s)
+B.RD=s([B.dz,B.c9,B.dA,B.fP],A.ax("F<nd>"))
+B.RF=s(["calendar","camera","contacts","location","locationAlways","locationWhenInUse","mediaLibrary","microphone","phone","photos","photosAddOnly","reminders","sensors","sms","speech","storage","ignoreBatteryOptimizations","notification","access_media_location","activity_recognition","unknown","bluetooth","manageExternalStorage","systemAlertWindow","requestInstallPackages","appTrackingTransparency","criticalAlerts","accessNotificationPolicy","bluetoothScan","bluetoothAdvertise","bluetoothConnect","nearbyWifiDevices","videos","audio","scheduleExactAlarm","sensorsAlways","calendarWriteOnly","calendarFullAccess","assistant","backgroundRefresh"],t.s)
 B.Iw=new A.wD(0,"auto")
 B.Ix=new A.wD(1,"full")
 B.Iy=new A.wD(2,"chromium")
-B.RH=s([B.Iw,B.Ix,B.Iy,B.dg],A.ax("F<wD>"))
+B.RG=s([B.Iw,B.Ix,B.Iy,B.dg],A.ax("F<wD>"))
 B.bN=new A.iD(1,"fuchsia")
-B.RJ=s([B.av,B.bN,B.S,B.bO,B.b2,B.bP],A.ax("F<iD>"))
+B.RI=s([B.av,B.bN,B.S,B.bO,B.b2,B.bP],A.ax("F<iD>"))
 B.F6=new A.FP(0,"topLeft")
 B.F9=new A.FP(3,"bottomRight")
 B.a91=new A.r0(B.F6,B.F9)
@@ -131980,7 +131968,7 @@ B.F7=new A.FP(1,"topRight")
 B.F8=new A.FP(2,"bottomLeft")
 B.a92=new A.r0(B.F7,B.F8)
 B.a93=new A.r0(B.F8,B.F7)
-B.RK=s([B.a91,B.a94,B.a92,B.a93],A.ax("F<r0>"))
+B.RJ=s([B.a91,B.a94,B.a92,B.a93],A.ax("F<r0>"))
 B.YQ=new A.aq(0.01339448,0.05994973)
 B.YO=new A.aq(0.13664115,0.13592082)
 B.YA=new A.aq(0.24545546,0.14099516)
@@ -131996,8 +131984,8 @@ B.Yw=new A.aq(0.66416338,0.0734653)
 B.Yr=new A.aq(0.68675338,0.06974996)
 B.YK=new A.aq(0.70678034,0.06529512)
 B.tv=s([B.YQ,B.YO,B.YA,B.YD,B.YM,B.Yo,B.Yx,B.YB,B.Yv,B.YJ,B.Z4,B.Yw,B.Yr,B.YK],A.ax("F<+(J,J)>"))
-B.RL=s(["a","b","c"],t.s)
-B.RN=s([35,30,20,25,30,35,30,25,25],t.n)
+B.RK=s(["a","b","c"],t.s)
+B.RM=s([35,30,20,25,30,35,30,25,25],t.n)
 B.WU=new A.cm(0)
 B.z4=new A.cm(1)
 B.X3=new A.cm(2)
@@ -132038,57 +132026,57 @@ B.Xj=new A.cm(36)
 B.Xk=new A.cm(37)
 B.Xl=new A.cm(38)
 B.Xm=new A.cm(39)
-B.RP=s([B.WU,B.z4,B.X3,B.z2,B.WS,B.z3,B.Xn,B.z6,B.WT,B.Xo,B.WV,B.WW,B.WX,B.WY,B.WZ,B.X_,B.X0,B.z5,B.X1,B.X2,B.X4,B.WR,B.X5,B.X6,B.X7,B.X8,B.X9,B.Xa,B.Xb,B.Xc,B.Xd,B.Xe,B.Xf,B.Xg,B.Xh,B.Xi,B.Xj,B.Xk,B.Xl,B.Xm],t.o_)
-B.RR=s(["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],t.s)
-B.RS=s(["click","scroll"],t.s)
+B.RO=s([B.WU,B.z4,B.X3,B.z2,B.WS,B.z3,B.Xn,B.z6,B.WT,B.Xo,B.WV,B.WW,B.WX,B.WY,B.WZ,B.X_,B.X0,B.z5,B.X1,B.X2,B.X4,B.WR,B.X5,B.X6,B.X7,B.X8,B.X9,B.Xa,B.Xb,B.Xc,B.Xd,B.Xe,B.Xf,B.Xg,B.Xh,B.Xi,B.Xj,B.Xk,B.Xl,B.Xm],t.o_)
+B.RQ=s(["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],t.s)
+B.RR=s(["click","scroll"],t.s)
 B.H4=new A.B5()
 B.i1=new A.a3b(1,"page")
 B.kb=new A.hn(B.b7,B.i1)
-B.RT=s([B.H4,B.kb],A.ax("F<bC>"))
+B.RS=s([B.H4,B.kb],A.ax("F<bC>"))
 B.L=s([2774754246,2222750968,2574743534,2373680118,234025727,3177933782,2976870366,1422247313,1345335392,50397442,2842126286,2099981142,436141799,1658312629,3870010189,2591454956,1170918031,2642575903,1086966153,2273148410,368769775,3948501426,3376891790,200339707,3970805057,1742001331,4255294047,3937382213,3214711843,4154762323,2524082916,1539358875,3266819957,486407649,2928907069,1780885068,1513502316,1094664062,49805301,1338821763,1546925160,4104496465,887481809,150073849,2473685474,1943591083,1395732834,1058346282,201589768,1388824469,1696801606,1589887901,672667696,2711000631,251987210,3046808111,151455502,907153956,2608889883,1038279391,652995533,1764173646,3451040383,2675275242,453576978,2659418909,1949051992,773462580,756751158,2993581788,3998898868,4221608027,4132590244,1295727478,1641469623,3467883389,2066295122,1055122397,1898917726,2542044179,4115878822,1758581177,0,753790401,1612718144,536673507,3367088505,3982187446,3194645204,1187761037,3653156455,1262041458,3729410708,3561770136,3898103984,1255133061,1808847035,720367557,3853167183,385612781,3309519750,3612167578,1429418854,2491778321,3477423498,284817897,100794884,2172616702,4031795360,1144798328,3131023141,3819481163,4082192802,4272137053,3225436288,2324664069,2912064063,3164445985,1211644016,83228145,3753688163,3249976951,1977277103,1663115586,806359072,452984805,250868733,1842533055,1288555905,336333848,890442534,804056259,3781124030,2727843637,3427026056,957814574,1472513171,4071073621,2189328124,1195195770,2892260552,3881655738,723065138,2507371494,2690670784,2558624025,3511635870,2145180835,1713513028,2116692564,2878378043,2206763019,3393603212,703524551,3552098411,1007948840,2044649127,3797835452,487262998,1994120109,1004593371,1446130276,1312438900,503974420,3679013266,168166924,1814307912,3831258296,1573044895,1859376061,4021070915,2791465668,2828112185,2761266481,937747667,2339994098,854058965,1137232011,1496790894,3077402074,2358086913,1691735473,3528347292,3769215305,3027004632,4199962284,133494003,636152527,2942657994,2390391540,3920539207,403179536,3585784431,2289596656,1864705354,1915629148,605822008,4054230615,3350508659,1371981463,602466507,2094914977,2624877800,555687742,3712699286,3703422305,2257292045,2240449039,2423288032,1111375484,3300242801,2858837708,3628615824,84083462,32962295,302911004,2741068226,1597322602,4183250862,3501832553,2441512471,1489093017,656219450,3114180135,954327513,335083755,3013122091,856756514,3144247762,1893325225,2307821063,2811532339,3063651117,572399164,2458355477,552200649,1238290055,4283782570,2015897680,2061492133,2408352771,4171342169,2156497161,386731290,3669999461,837215959,3326231172,3093850320,3275833730,2962856233,1999449434,286199582,3417354363,4233385128,3602627437,974525996],t.t)
-B.RV=s([0,0.45,1],t.n)
-B.Sd=s([],t.QP)
+B.RU=s([0,0.45,1],t.n)
+B.Sc=s([],t.QP)
 B.abH=s([],A.ax("F<mh>"))
-B.S4=s([],A.ax("F<ld>"))
-B.S6=s([],t.sq)
+B.S3=s([],A.ax("F<ld>"))
+B.S5=s([],t.sq)
 B.tA=s([],A.ax("F<bJE>"))
-B.S2=s([],t.E)
-B.S0=s([],t.lX)
+B.S1=s([],t.E)
+B.S_=s([],t.lX)
 B.abI=s([],t.ij)
-B.Sl=s([],t.fJ)
-B.RY=s([],A.ax("F<jJ>"))
+B.Sk=s([],t.fJ)
+B.RX=s([],A.ax("F<jJ>"))
 B.abJ=s([],t.HS)
-B.S3=s([],t.ER)
+B.S2=s([],t.ER)
 B.abK=s([],t.ss)
-B.S8=s([],t.tc)
+B.S7=s([],t.tc)
 B.jB=s([],t.jl)
-B.S9=s([],t.wi)
+B.S8=s([],t.wi)
 B.tz=s([],A.ax("F<jR>"))
-B.S7=s([],A.ax("F<iv<@>>"))
+B.S6=s([],A.ax("F<iv<@>>"))
 B.tx=s([],t.tC)
 B.n1=s([],t.AO)
-B.RX=s([],t.Bw)
-B.S1=s([],t.yo)
+B.RW=s([],t.Bw)
+B.S0=s([],t.yo)
 B.jz=s([],t.i3)
 B.n0=s([],t.K1)
-B.Sc=s([],t.D1)
+B.Sb=s([],t.D1)
 B.n2=s([],t.QF)
-B.S5=s([],t.Xv)
+B.S4=s([],t.Xv)
 B.abL=s([],A.ax("F<kX>"))
-B.Sk=s([],t.Lx)
-B.Sn=s([],t.AS)
+B.Sj=s([],t.Lx)
+B.Sm=s([],t.AS)
 B.tw=s([],t.p)
-B.Sa=s([],A.ax("F<jl>"))
-B.S_=s([],t.lD)
-B.Sm=s([],t.n)
+B.S9=s([],A.ax("F<jl>"))
+B.RZ=s([],t.lD)
+B.Sl=s([],t.n)
 B.hE=s([],t.t)
 B.jA=s([],t.ee)
-B.RZ=s([],t.iG)
-B.Sg=s([],t._m)
+B.RY=s([],t.iG)
+B.Sf=s([],t._m)
 B.VY=new A.l(0,2)
 B.GS=new A.f9(0.75,B.cI,B.qh,B.VY,1.5)
-B.St=s([B.GS],t.sq)
-B.Sx=s([47,47,47,47,72,97,122,147],t.t)
+B.Ss=s([B.GS],t.sq)
+B.Sw=s([47,47,47,47,72,97,122,147],t.t)
 B.hF=s([B.dE,B.cb,B.iy,B.iz,B.lg],t.QP)
 B.ij=new A.iE(0,"system")
 B.Nc=new A.aH(57612,"MaterialIcons",null,!1)
@@ -132105,18 +132093,18 @@ B.Nd=new A.aH(57776,"MaterialIcons",null,!1)
 B.OF=new A.d6(B.Nd,16,null,null,null)
 B.a6i=new A.bD("Dark",null,null,null,null,null,null,null,null)
 B.GY=new A.nw(B.oC,B.OF,B.a6i,t.b6)
-B.Sz=s([B.GZ,B.H_,B.GY],A.ax("F<nw<iE>>"))
+B.Sy=s([B.GZ,B.H_,B.GY],A.ax("F<nw<iE>>"))
 B.QV=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.RU=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
-B.R7=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.SF=s([B.QV,B.RU,B.R7],t.zg)
-B.SG=s([45,95,45,20,45,90,45,45,45],t.n)
-B.SH=s([120,120,20,45,20,15,20,120,120],t.n)
+B.RT=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.R6=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
+B.SE=s([B.QV,B.RT,B.R6],t.zg)
+B.SF=s([45,95,45,20,45,90,45,45,45],t.n)
+B.SG=s([120,120,20,45,20,15,20,120,120],t.n)
 B.CM=new A.aq(0,0)
 B.Ym=new A.aq(0,1)
 B.Yp=new A.aq(1,0)
 B.Yq=new A.aq(1,1)
-B.SJ=s([B.CM,B.Ym,B.Yp,B.Yq],A.ax("F<+(m,m)>"))
+B.SI=s([B.CM,B.Ym,B.Yp,B.Yq],A.ax("F<+(m,m)>"))
 B.f8=new A.kD(0,"controlModifier")
 B.f9=new A.kD(1,"shiftModifier")
 B.fa=new A.kD(2,"altModifier")
@@ -132133,7 +132121,19 @@ B.yO=new A.l(0,3)
 B.GU=new A.f9(0,B.cI,B.J6,B.yO,8)
 B.Ks=new A.M(0.058823529411764705,0,0,0,B.f)
 B.GV=new A.f9(0,B.cI,B.Ks,B.yO,1)
-B.SL=s([B.GU,B.GV],t.sq)
+B.SK=s([B.GU,B.GV],t.sq)
+B.a9t=new A.a9q(null)
+B.aaI=new A.l2("1. Acceptance",'By creating an account or using the Solar-IQ mobile app ("the app"), you agree to these Terms of Service. If you do not agree, do not use the app.',null)
+B.aaM=new A.l2("2. What Solar-IQ is","Solar-IQ is a third-party client for the Voltronic / AXPERT KING II family of hybrid solar inverters. It communicates with the Shinemonitor cloud using credentials you provide and surfaces live status, charts, cost analytics and notifications. Solar-IQ is not affiliated with, endorsed by or certified by Voltronic Power, Shinemonitor, or any other inverter manufacturer.",null)
+B.aaO=new A.l2("3. Your account","You are responsible for keeping your Shinemonitor and Solar-IQ credentials confidential. You are responsible for every action taken from your account. Contact support immediately if you suspect unauthorised access.",null)
+B.aaP=new A.l2("4. Acceptable use","You agree not to: reverse-engineer or decompile the app except as permitted by law; use the app to access accounts or inverters that are not yours; abuse the Shinemonitor API through Solar-IQ; attempt to disrupt the service; or use the app for anything illegal.",null)
+B.aaQ=new A.l2('5. No warranty / "as is"',"Solar-IQ is provided AS IS and AS AVAILABLE. Readings, charts and cost estimates are indicative only and depend on data returned by the Shinemonitor API. We do not guarantee accuracy, uptime, or fitness for a particular purpose. Do not rely on the app for safety-critical decisions or for compliance with electrical regulations.",null)
+B.aaN=new A.l2("6. Limitation of liability","To the maximum extent permitted by applicable law, Level7 Tech and its contributors shall not be liable for any indirect, incidental, consequential or punitive damages arising out of your use of the app, including but not limited to damage to inverters, batteries, loads, property, or lost revenue.",null)
+B.aaK=new A.l2("7. Modifications to the service","We may add, change or remove features at any time without notice. Critical changes will be announced inside the app.",null)
+B.aaL=new A.l2("8. Termination","You may stop using Solar-IQ at any time and permanently delete your account from Settings \u2192 Delete Account. We may suspend or terminate accounts that violate these terms.",null)
+B.aaJ=new A.l2("9. Governing law","These terms are governed by the laws applicable at the publisher's principal place of business. Any disputes will be handled by the competent courts of that jurisdiction.",null)
+B.aaR=new A.l2("10. Contact","For questions about these Terms, email level7tech@gmail.com.",null)
+B.SM=s([B.a9t,B.W,B.aaI,B.aaM,B.aaO,B.aaP,B.aaQ,B.aaN,B.aaK,B.aaL,B.aaJ,B.aaR,B.cB],t.p)
 B.SN=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.mN=new A.jE(100)
 B.MQ=new A.jE(200)
@@ -132746,57 +132746,57 @@ B.QI=s([54,null,null,8589935158],t.Z)
 B.QJ=s([55,null,null,8589935159],t.Z)
 B.QK=s([56,null,null,8589935160],t.Z)
 B.QM=s([57,null,null,8589935161],t.Z)
-B.Rz=s([8589934852,8589934852,8589934853,null],t.Z)
+B.Ry=s([8589934852,8589934852,8589934853,null],t.Z)
 B.Qk=s([4294967555,null,4294967555,null],t.Z)
 B.Ql=s([4294968065,null,null,8589935154],t.Z)
 B.Qm=s([4294968066,null,null,8589935156],t.Z)
 B.Qn=s([4294968067,null,null,8589935158],t.Z)
 B.Qo=s([4294968068,null,null,8589935160],t.Z)
 B.Qt=s([4294968321,null,null,8589935157],t.Z)
-B.RA=s([8589934848,8589934848,8589934849,null],t.Z)
+B.Rz=s([8589934848,8589934848,8589934849,null],t.Z)
 B.Qj=s([4294967423,null,null,8589935150],t.Z)
 B.Qp=s([4294968069,null,null,8589935153],t.Z)
 B.Qi=s([4294967309,null,null,8589935117],t.Z)
 B.Qq=s([4294968070,null,null,8589935159],t.Z)
 B.Qu=s([4294968327,null,null,8589935152],t.Z)
-B.RB=s([8589934854,8589934854,8589934855,null],t.Z)
+B.RA=s([8589934854,8589934854,8589934855,null],t.Z)
 B.Qr=s([4294968071,null,null,8589935155],t.Z)
 B.Qs=s([4294968072,null,null,8589935161],t.Z)
-B.RC=s([8589934850,8589934850,8589934851,null],t.Z)
-B.yG=new A.dT(["*",B.Qv,"+",B.Qw,"-",B.Qx,".",B.Qy,"/",B.Qz,"0",B.QA,"1",B.QB,"2",B.QD,"3",B.QF,"4",B.QG,"5",B.QH,"6",B.QI,"7",B.QJ,"8",B.QK,"9",B.QM,"Alt",B.Rz,"AltGraph",B.Qk,"ArrowDown",B.Ql,"ArrowLeft",B.Qm,"ArrowRight",B.Qn,"ArrowUp",B.Qo,"Clear",B.Qt,"Control",B.RA,"Delete",B.Qj,"End",B.Qp,"Enter",B.Qi,"Home",B.Qq,"Insert",B.Qu,"Meta",B.RB,"PageDown",B.Qr,"PageUp",B.Qs,"Shift",B.RC],A.ax("dT<i,r<m?>>"))
+B.RB=s([8589934850,8589934850,8589934851,null],t.Z)
+B.yG=new A.dT(["*",B.Qv,"+",B.Qw,"-",B.Qx,".",B.Qy,"/",B.Qz,"0",B.QA,"1",B.QB,"2",B.QD,"3",B.QF,"4",B.QG,"5",B.QH,"6",B.QI,"7",B.QJ,"8",B.QK,"9",B.QM,"Alt",B.Ry,"AltGraph",B.Qk,"ArrowDown",B.Ql,"ArrowLeft",B.Qm,"ArrowRight",B.Qn,"ArrowUp",B.Qo,"Clear",B.Qt,"Control",B.Rz,"Delete",B.Qj,"End",B.Qp,"Enter",B.Qi,"Home",B.Qq,"Insert",B.Qu,"Meta",B.RA,"PageDown",B.Qr,"PageUp",B.Qs,"Shift",B.RB],A.ax("dT<i,r<m?>>"))
 B.QL=s([B.tI,null,null,B.yo],t.L)
-B.So=s([B.ya,null,null,B.yp],t.L)
-B.Rg=s([B.yb,null,null,B.yq],t.L)
-B.RD=s([B.yc,null,null,B.e7],t.L)
+B.Sn=s([B.ya,null,null,B.yp],t.L)
+B.Rf=s([B.yb,null,null,B.yq],t.L)
+B.RC=s([B.yc,null,null,B.e7],t.L)
 B.Q9=s([B.yd,null,null,B.yr],t.L)
-B.SD=s([B.ye,null,null,B.ne],t.L)
-B.Sy=s([B.yf,null,null,B.hP],t.L)
+B.SC=s([B.ye,null,null,B.ne],t.L)
+B.Sx=s([B.yf,null,null,B.hP],t.L)
 B.QU=s([B.yg,null,null,B.e8],t.L)
-B.SK=s([B.yh,null,null,B.hQ],t.L)
-B.Sw=s([B.yi,null,null,B.e9],t.L)
+B.SJ=s([B.yh,null,null,B.hQ],t.L)
+B.Sv=s([B.yi,null,null,B.e9],t.L)
 B.QQ=s([B.yj,null,null,B.nf],t.L)
 B.Qf=s([B.yk,null,null,B.ea],t.L)
-B.R4=s([B.yl,null,null,B.hR],t.L)
-B.Sp=s([B.ym,null,null,B.eb],t.L)
-B.Sr=s([B.yn,null,null,B.hS],t.L)
+B.R3=s([B.yl,null,null,B.hR],t.L)
+B.So=s([B.ym,null,null,B.eb],t.L)
+B.Sq=s([B.yn,null,null,B.hS],t.L)
 B.QW=s([B.hN,B.hN,B.jH,null],t.L)
-B.SE=s([B.jE,null,B.jE,null],t.L)
-B.Rl=s([B.cw,null,null,B.e8],t.L)
-B.Rm=s([B.cf,null,null,B.e9],t.L)
-B.Rn=s([B.cg,null,null,B.ea],t.L)
-B.SI=s([B.cx,null,null,B.eb],t.L)
-B.Su=s([B.n9,null,null,B.nf],t.L)
+B.SD=s([B.jE,null,B.jE,null],t.L)
+B.Rk=s([B.cw,null,null,B.e8],t.L)
+B.Rl=s([B.cf,null,null,B.e9],t.L)
+B.Rm=s([B.cg,null,null,B.ea],t.L)
+B.SH=s([B.cx,null,null,B.eb],t.L)
+B.St=s([B.n9,null,null,B.nf],t.L)
 B.QX=s([B.f4,B.f4,B.hM,null],t.L)
-B.RO=s([B.bu,null,null,B.e7],t.L)
-B.Ro=s([B.e4,null,null,B.hP],t.L)
+B.RN=s([B.bu,null,null,B.e7],t.L)
+B.Rn=s([B.e4,null,null,B.hP],t.L)
 B.QP=s([B.jD,null,null,B.nd],t.L)
-B.Rp=s([B.e5,null,null,B.hR],t.L)
-B.Sv=s([B.hL,null,null,B.ne],t.L)
+B.Ro=s([B.e5,null,null,B.hR],t.L)
+B.Su=s([B.hL,null,null,B.ne],t.L)
 B.QY=s([B.hO,B.hO,B.jI,null],t.L)
-B.Rq=s([B.hJ,null,null,B.hQ],t.L)
-B.RW=s([B.hK,null,null,B.hS],t.L)
+B.Rp=s([B.hJ,null,null,B.hQ],t.L)
+B.RV=s([B.hK,null,null,B.hS],t.L)
 B.QZ=s([B.dp,B.dp,B.e6,null],t.L)
-B.UQ=new A.dT(["*",B.QL,"+",B.So,"-",B.Rg,".",B.RD,"/",B.Q9,"0",B.SD,"1",B.Sy,"2",B.QU,"3",B.SK,"4",B.Sw,"5",B.QQ,"6",B.Qf,"7",B.R4,"8",B.Sp,"9",B.Sr,"Alt",B.QW,"AltGraph",B.SE,"ArrowDown",B.Rl,"ArrowLeft",B.Rm,"ArrowRight",B.Rn,"ArrowUp",B.SI,"Clear",B.Su,"Control",B.QX,"Delete",B.RO,"End",B.Ro,"Enter",B.QP,"Home",B.Rp,"Insert",B.Sv,"Meta",B.QY,"PageDown",B.Rq,"PageUp",B.RW,"Shift",B.QZ],A.ax("dT<i,r<o?>>"))
+B.UQ=new A.dT(["*",B.QL,"+",B.Sn,"-",B.Rf,".",B.RC,"/",B.Q9,"0",B.SC,"1",B.Sx,"2",B.QU,"3",B.SJ,"4",B.Sv,"5",B.QQ,"6",B.Qf,"7",B.R3,"8",B.So,"9",B.Sq,"Alt",B.QW,"AltGraph",B.SD,"ArrowDown",B.Rk,"ArrowLeft",B.Rl,"ArrowRight",B.Rm,"ArrowUp",B.SH,"Clear",B.St,"Control",B.QX,"Delete",B.RN,"End",B.Rn,"Enter",B.QP,"Home",B.Ro,"Insert",B.Su,"Meta",B.QY,"PageDown",B.Rp,"PageUp",B.RV,"Shift",B.QZ],A.ax("dT<i,r<o?>>"))
 B.VP={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.nq=new A.cb(B.VP,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.VL={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
@@ -133147,8 +133147,8 @@ B.Vc=new A.jO("flutter.baseflow.com/permissions/methods",B.bq)
 B.nv=new A.jO("plugins.it_nomads.com/flutter_secure_storage",B.bq)
 B.jS=new A.jO("flutter.baseflow.com/geolocator",B.bq)
 B.Vd=new A.jO("flutter/service_worker",B.bq)
-B.Sh=s([],t.te)
-B.Ve=new A.lz(B.Sh)
+B.Sg=s([],t.te)
+B.Ve=new A.lz(B.Sg)
 B.Vf=new A.kE(0,0,0)
 B.fc=new A.a0J(0,"latestPointer")
 B.nA=new A.a0J(1,"averageBoundaryPointers")
@@ -133307,9 +133307,9 @@ B.dr=new A.b6(2,2)
 B.Yi=new A.b6(-1/0,-1/0)
 B.Yj=new A.b6(1.5,1.5)
 B.Yk=new A.b6(1/0,1/0)
-B.Si=s([],A.ax("F<lq>"))
-B.Sj=s([],A.ax("F<lT>"))
-B.Yl=new A.MP(B.Si,B.Sj)
+B.Sh=s([],A.ax("F<lq>"))
+B.Si=s([],A.ax("F<lT>"))
+B.Yl=new A.MP(B.Sh,B.Si)
 B.Yn=new A.aq(0,!0)
 B.d4=new A.P7(2,"collapsed")
 B.Ys=new A.aq(B.d4,B.d4)
@@ -133516,9 +133516,9 @@ B.km=new A.qE(B.q,B.h,0)
 B.K2=new A.M(0.23529411764705882,0,0,0,B.f)
 B.W0=new A.l(0,4)
 B.GW=new A.f9(0.5,B.cI,B.K2,B.W0,10)
-B.RQ=s([B.GW],t.sq)
+B.RP=s([B.GW],t.sq)
 B.Zo=new A.oh(B.pu,B.u)
-B.a_j=new A.jX(null,null,null,B.RQ,B.Zo)
+B.a_j=new A.jX(null,null,null,B.RP,B.Zo)
 B.o3=new A.vf(0,"onlyForDiscrete")
 B.Du=new A.vf(1,"onlyForContinuous")
 B.Dv=new A.vf(2,"always")
@@ -134369,12 +134369,12 @@ B.a9d=new A.iI('What is "Years to break even"?',"If you set a System Cost on Edi
 B.a9e=new A.iI("How do I delete my account?","Settings \u2192 Delete Account. You'll be asked to type the word DELETE to confirm. Deletion is permanent and cascades to every row we hold for you \u2014 systems, readings, push tokens and preferences.",!0,null)
 B.a9f=new A.iI("I have two inverters in parallel. Is that supported?",'Yes. On the Edit System screen, set "Inverters" to 2. The app automatically doubles the fields that the Shinemonitor API reports per-inverter so the totals match reality.',!1,null)
 B.a9g=new A.iI("What kinds of alerts can I receive?","Grid loss and recovery, low battery SOC, critical battery, and inverter faults. Each alert has its own threshold and cooldown you can tune in Settings \u2192 Notifications.",!1,null)
-B.a9h=new A.iI("What is SolarIQ?","SolarIQ is a companion app for Voltronic AXPERT KING II hybrid inverters. It reads live data from the Shinemonitor cloud and shows you what your solar system is doing right now \u2014 PV production, battery SOC, grid consumption, costs and ROI.",!1,null)
-B.a9i=new A.iI("Why are my readings stale?","Readings come from Shinemonitor. If the cloud has not received new data from your inverter (Wi-Fi down, dongle offline), SolarIQ will show the last known values. Check the timestamp on the dashboard to confirm freshness.",!1,null)
-B.a9j=new A.iI("Where are my credentials stored?","In your private Supabase account, protected by row-level security so only you can read them. They are used only to authenticate against Shinemonitor on your behalf.",!1,null)
-B.a9k=new A.iI("How often does the dashboard refresh?","By default every 5 seconds. You can change this from Settings \u2192 Refresh Interval. Polling pauses automatically when the app is in the background to save battery.",!1,null)
-B.a9l=new A.iI("How does SolarIQ calculate my savings?","Configure your utility pricing tiers in Settings \u2192 Electricity Pricing. Each kWh the system served from solar or battery is valued at the matching tier price for that period and rolled up into daily, monthly and yearly totals on the Costs tab.",!1,null)
-B.a9m=new A.iI("I'm not getting push notifications.","Check: (1) OS notification permission for SolarIQ is enabled, (2) the specific alert type is toggled on, (3) your device is online. Sign out and back in to refresh the push token if needed.",!1,null)
+B.a9h=new A.iI("What is Solar-IQ?","Solar-IQ is a companion app for Voltronic AXPERT KING II hybrid inverters. It reads live data from the Shinemonitor cloud and shows you what your solar system is doing right now \u2014 PV production, battery SOC, grid consumption, costs and ROI.",!1,null)
+B.a9i=new A.iI("How does Solar-IQ calculate my savings?","Configure your utility pricing tiers in Settings \u2192 Electricity Pricing. Each kWh the system served from solar or battery is valued at the matching tier price for that period and rolled up into daily, monthly and yearly totals on the Costs tab.",!1,null)
+B.a9j=new A.iI("Why are my readings stale?","Readings come from Shinemonitor. If the cloud has not received new data from your inverter (Wi-Fi down, dongle offline), Solar-IQ will show the last known values. Check the timestamp on the dashboard to confirm freshness.",!1,null)
+B.a9k=new A.iI("Where are my credentials stored?","In your private Supabase account, protected by row-level security so only you can read them. They are used only to authenticate against Shinemonitor on your behalf.",!1,null)
+B.a9l=new A.iI("How often does the dashboard refresh?","By default every 5 seconds. You can change this from Settings \u2192 Refresh Interval. Polling pauses automatically when the app is in the background to save battery.",!1,null)
+B.a9m=new A.iI("I'm not getting push notifications.","Check: (1) OS notification permission for Solar-IQ is enabled, (2) the specific alert type is toggled on, (3) your device is online. Sign out and back in to refresh the push token if needed.",!1,null)
 B.a9n=new A.iI("How do I connect my inverter?","From Settings \u2192 Add Solar System, sign in with your Shinemonitor username and password, then pick the plant (PN) you want to monitor. The app stores your credentials encrypted in your private account and polls the API every few seconds.",!0,null)
 B.ac3=new A.aTp(0,"filled")
 B.oZ=new A.QX(0,"none")
@@ -134705,7 +134705,7 @@ return A.a([A.W(A.W(A.aV(),q),"Baseline"),A.W(A.W(A.aV(),q),"AboveBaseline"),A.W
 r($,"bQO","bq5",()=>A.eR().ga8L()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
 r($,"bPT","bpp",()=>A.bCs(A.Vi(A.Vi(A.nl(),"window"),"FinalizationRegistry"),A.fJ(new A.b2u())))
 r($,"bS6","bqI",()=>new A.aAA())
-s($,"bQ7","bpB",()=>A.bwJ(B.Rs))
+s($,"bQ7","bpB",()=>A.bwJ(B.Rr))
 s($,"bQ6","b6_",()=>A.awZ(A.bsh($.bpB())))
 s($,"bKP","eu",()=>{var q,p=A.W(A.W(A.nl(),"window"),"screen")
 p=p==null?null:A.W(p,"width")
