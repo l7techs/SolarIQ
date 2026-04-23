@@ -940,7 +940,7 @@ a.m()
 return l},
 q4(a){return new A.a_H(a)},
 bGX(a){var s,r,q,p,o,n,m
-A:for(s=a.length,r=0;r<6;++r){q=B.QU[r]
+A:for(s=a.length,r=0;r<6;++r){q=B.QV[r]
 p=q.c
 o=p.length
 if(s<o)continue A
@@ -13982,7 +13982,7 @@ break
 case 4:s=l.a
 s===$&&A.b()
 s=A.cf(s,200)
-r=A.cf(A.ape(l,B.tw,B.Rn),24)
+r=A.cf(A.ape(l,B.tw,B.Ro),24)
 q=A.cf(A.ape(l,B.tw,B.S3),32)
 p=A.cf(l.a,10)
 o=A.cf(l.a,12)
@@ -26768,7 +26768,7 @@ t.Dn.a(a)
 s=J.aa(a)
 r=s.i(a,0)
 r.toString
-switch(B.R2[A.ev(r)].a){case 0:s=s.f0(a,1)
+switch(B.R3[A.ev(r)].a){case 0:s=s.f0(a,1)
 r=s[0]
 r.toString
 A.ev(r)
@@ -30554,7 +30554,7 @@ _.a=e
 _.b=f},
 aui:function aui(){},
 bvw(a){var s=J.aa(a)
-return new A.pV(s.i(a,"id"),s.i(a,"friendly_name"),B.b.qv(B.Rt,new A.arD(a)),B.b.qv(B.Rs,new A.arE(a)),A.iY(s.i(a,"created_at")),A.iY(s.i(a,"updated_at")))},
+return new A.pV(s.i(a,"id"),s.i(a,"friendly_name"),B.b.qv(B.Ru,new A.arD(a)),B.b.qv(B.Rt,new A.arE(a)),A.iY(s.i(a,"created_at")),A.iY(s.i(a,"updated_at")))},
 xu:function xu(a,b){this.a=a
 this.b=b},
 xv:function xv(a,b){this.a=a
@@ -33533,7 +33533,7 @@ this.b=b
 this.c=c},
 b4j:function b4j(){},
 bar(a){if(a<1||a>12)return""
-return B.Qw[a-1]},
+return B.Qx[a-1]},
 bj8(a,b,c){var s,r,q,p,o,n=J.aa(a)
 if(n.gaa(a))return null
 for(n=n.gad(a),s=null,r=1/0;n.v();){q=n.gK(n)
@@ -33789,7 +33789,7 @@ Vr(a){if(a>=1e6)return B.d.U(a/1e6,2)+"M"
 if(a>=1000)return B.d.U(a/1000,1)+"K"
 return B.d.U(a,0)},
 bk9(a){if(a<1||a>12)return""
-return B.R3[a-1]},
+return B.R4[a-1]},
 Y9:function Y9(a){this.a=a},
 anl:function anl(a){this.a=a},
 anm:function anm(a){this.a=a},
@@ -36584,7 +36584,7 @@ $1(a){this.a.b=A.blu(a.getOutputBounds(A.dn(this.b)))},
 $S:2}
 A.BL.prototype={
 gaxb(){var s,r,q=new Float32Array(20)
-for(s=this.a,r=0;r<20;++r)if(B.b.q(B.QS,r))q[r]=s[r]/255
+for(s=this.a,r=0;r<20;++r)if(B.b.q(B.QT,r))q[r]=s[r]/255
 else q[r]=s[r]
 return q},
 z9(){return $.bp.bj().ColorFilter.MakeMatrix(this.gaxb())},
@@ -39847,7 +39847,7 @@ if(e.b){q=t.f
 d=q.a(J.aM(q.a(B.cM.ji(a2)),"data"))
 c=A.bL(J.aM(d,"message"))
 if(c!=null&&c.length!==0){b=A.b8s(d,"assertiveness")
-e.a.a6d(c,B.Rk[b==null?0:b])}}a.hM(a3,B.cM.d_(!0))
+e.a.a6d(c,B.Rl[b==null?0:b])}}a.hM(a3,B.cM.d_(!0))
 return
 case"flutter/navigation":q=a.gee().b
 p=t.e8
@@ -44156,7 +44156,7 @@ m=A.jz(r.i(s,"fontWeightIndex"))
 l=m!=null?A.baS(m):"normal"
 q=A.dN(r.i(s,"fontSize"))
 if(q==null)q=null
-p=new A.aMA(new A.aqO(q,l,A.bL(r.i(s,"fontFamily")),B.Ri[o],B.n3[n]))
+p=new A.aMA(new A.aqO(q,l,A.bL(r.i(s,"fontFamily")),B.Rj[o],B.n3[n]))
 break
 case"TextInput.clearClient":p=B.Ig
 break
@@ -50364,7 +50364,7 @@ D(a,b){this.eP(b,0,J.bS(b),!1)},
 eP(a,b,c,d){var s,r,q=J.aa(a)
 A.ep(b,c,q.gB(a),null,null)
 for(s=this.a,r=b;r<c;++r)if((q.i(a,r)&4294967168)>>>0!==0){if(r>b)s.eP(a,b,r,!1)
-s.D(0,B.Qt)
+s.D(0,B.Qu)
 b=r+1}if(b<c)s.eP(a,b,c,d)
 else if(d)s.al(0)}}
 A.b_7.prototype={
@@ -50798,7 +50798,7 @@ if(r>255||r<0){if(s>b){q=p.a
 q.toString
 q.D(0,A.iF(a,b,s))}q=p.a
 q.toString
-q.D(0,A.iF(B.R7,0,1))
+q.D(0,A.iF(B.R8,0,1))
 b=s+1}}if(b<c)p.XE(a,b,c,d)
 if(d){p.a.al(0)
 p.a=null}}}
@@ -54964,7 +54964,7 @@ h=r[4]
 g=r[5]
 f=r[6]
 e=r[7]
-for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Ru[q]+s[q]>>>0)>>>0)>>>0
+for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Rv[q]+s[q]>>>0)>>>0)>>>0
 b=i+c>>>0
 a=c+((((d>>>2|d<<30)^(d>>>13|d<<19)^(d>>>22|d<<10))>>>0)+((d&k^d&j^k&j)>>>0)>>>0)>>>0}r.$flags&2&&A.a9(r)
 r[0]=d+l>>>0
@@ -91103,7 +91103,7 @@ q.bw()
 q.cI$.D(0,s.gaxq())
 s.e=q}return q},
 ga0R(){var s=this.f
-return s===$?this.f=new A.aSZ(1,B.Rh,B.ca):s},
+return s===$?this.f=new A.aSZ(1,B.Ri,B.ca):s},
 gjL(){var s=this.z
 s=s==null?null:$.db().d===s
 return s===!0},
@@ -111940,7 +111940,7 @@ k=A.bv(b,8,B.m)
 q[2]=k
 j=A.bv(b,12,B.m)
 q[3]=j
-for(n=1;n<=10;++n){m=(m^c.zN((j>>>8|(j&$.bt[24])<<24)>>>0)^B.R6[n-1])>>>0
+for(n=1;n<=10;++n){m=(m^c.zN((j>>>8|(j&$.bt[24])<<24)>>>0)^B.R7[n-1])>>>0
 b=o[n]
 b[0]=m
 l=(l^m)>>>0
@@ -121587,7 +121587,7 @@ F(a){var s=null,r=A.C(a).ax.k3
 return A.cE(A.cT(A.Y("No data for this month yet.",s,s,s,A.a6(s,s,A.M(128,r.l()>>>16&255,r.l()>>>8&255,r.l()&255),s,s,s,s,s,s,s,s,12,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),s,s),180,s)}}
 A.R1.prototype={
 F(a){var s=null
-return A.e6(new A.au(B.MB,A.b1(A.a([new A.au(B.My,A.Y(this.c,s,s,s,A.a6(s,s,A.C(a).ax.k3,s,s,s,s,s,s,s,s,12,s,s,B.O,s,s,!0,s,s,s,s,s,s,s,s),s,s),s),new A.au(B.Mz,A.bK(B.Rq,B.r,B.k,B.n,0,s),s),this.d],t.p),B.N,B.k,B.n),s),s)}}
+return A.e6(new A.au(B.MB,A.b1(A.a([new A.au(B.My,A.Y(this.c,s,s,s,A.a6(s,s,A.C(a).ax.k3,s,s,s,s,s,s,s,s,12,s,s,B.O,s,s,!0,s,s,s,s,s,s,s,s),s,s),s),new A.au(B.Mz,A.bK(B.Rr,B.r,B.k,B.n,0,s),s),this.d],t.p),B.N,B.k,B.n),s),s)}}
 A.RA.prototype={
 F(a){var s=null,r=A.C(a).ax.k3
 return A.bK(A.a([A.cC(s,s,B.t,s,s,new A.cp(this.c,s,s,s,s,s,B.bQ),8,s,s,s,8),B.ep,A.Y(this.d,s,s,s,A.a6(s,s,A.M(179,r.l()>>>16&255,r.l()>>>8&255,r.l()&255),s,s,s,s,s,s,s,s,10,s,s,B.O,s,s,!0,s,s,s,s,s,s,s,s),s,s)],t.p),B.r,B.k,B.a0,0,s)}}
@@ -123760,7 +123760,7 @@ F(a){var s,r,q,p,o,n=null,m=A.C(a),l=A.bC(a,n,t.w).w.r
 m=m.ax.k3
 s=t.p
 m=A.a([A.Y("Control which notifications you receive and fine-tune their thresholds. Cooldown is the minimum gap between two alerts of the same type from the same system.",n,n,n,A.a6(n,n,A.M(153,m.l()>>>16&255,m.l()>>>8&255,m.l()&255),n,n,n,n,n,n,n,n,12,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n),B.S],s)
-B.b.J(m,new A.Z(B.Rx,new A.aQn(this),t.yR))
+B.b.J(m,new A.Z(B.Qt,new A.aQn(this),t.yR))
 l=A.yb(m,n,new A.ah(16,16+l.b,16,96+l.d))
 m=this.w
 r=m?n:this.gaxc()
@@ -123818,7 +123818,7 @@ o=B.d.U(p?r.b:q,1)
 if(p)q=r.b
 p=r.b
 r=r.a
-B.b.J(l,A.a([B.aE,A.H_(B.d.ap((r-p)*2),"Trigger when hours-left <",r,p,new A.aPr(n,k),q,o+" h")],s))}if(i){j=j.b
+B.b.J(l,A.a([B.aE,A.H_(B.d.ap((r-p)*2),"Trigger when hours-left <",r,p,new A.aPr(n,k),q,o+" h")],s))}if(i&&h.a!=="nighttime_low_battery"){j=j.b
 r=n.a_i(j)
 q=h.Q
 p=q.b
@@ -123857,7 +123857,7 @@ o.toString
 s=p.f.w
 r=B.b.fW(o,s==null?B.b.gR(o):s)
 q=r===-1?0:r
-return A.H_(8,"Check after",8,0,new A.aPk(p,this.b,o),q,p.aqs(o[q]))},
+return A.H_(8,"Check at",8,0,new A.aPk(p,this.b,o),q,p.aqs(o[q]))},
 $S:996}
 A.aPk.prototype={
 $1(a){var s=this.a
@@ -123885,7 +123885,7 @@ A.E4.prototype={
 F(a){return A.ee(A.hg(null,B.EN),B.q,A.eK(B.aK,A.a([B.ft,A.om(0,new A.dR(new A.aDp(),null))],t.p),B.F,B.aO),null,!1,!0)}}
 A.aDp.prototype={
 $1(a){var s=A.bC(a,null,t.w).w.r
-return A.yb(B.Rv,null,new A.ah(16,16+s.b,16,16+s.d))},
+return A.yb(B.Rw,null,new A.ah(16,16+s.b,16,16+s.d))},
 $S:80}
 A.aar.prototype={
 F(a){var s=null,r=A.C(a).ax,q=r.b,p=A.a([q.cF(0.12),q.cF(0.04)],t.t_),o=A.ci(14),n=A.mt(q.cF(0.2),1),m=q.cF(0.15),l=r.k3,k=t.p
@@ -131843,8 +131843,8 @@ B.Kc=new A.N(1,0.21568627450980393,0.2784313725490196,0.30980392156862746,B.f)
 B.K5=new A.N(1,0.14901960784313725,0.19607843137254902,0.2196078431372549,B.f)
 B.Vb=new A.dU([50,B.JN,100,B.JC,200,B.JV,300,B.iS,400,B.Jm,500,B.Jl,600,B.K8,700,B.JI,800,B.Kc,900,B.K5],t.pl)
 B.ds=new A.qi(B.Vb,1,0.3764705882352941,0.49019607843137253,0.5450980392156862,B.f)
-B.Rf=s([8,4],t.t)
-B.N1=new A.pX(B.ds,null,0.4,B.Rf)
+B.Rg=s([8,4],t.t)
+B.N1=new A.pX(B.ds,null,0.4,B.Rg)
 B.cR=new A.cV(0/0,0/0,null,null)
 B.a_y=new A.n3(!0,A.baC(),44,null,!0,!0)
 B.ps=new A.mq(16,null,B.a_y,!0)
@@ -132172,9 +132172,38 @@ B.RK=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.T7=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
 B.Qs=s([B.S2,B.RK,B.T7],t.zg)
 B.tr=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
-B.Qt=s([239,191,189],t.t)
-B.Qw=s(["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],t.s)
-B.QS=s([4,9,14,19],t.t)
+B.Za=new A.hr(30,1)
+B.nQ=new A.hr(240,5)
+B.FK=new A.hN("battery_critical","Battery Critical","SOC reaches a critically low level","\ud83d\udd34",B.Za,null,null,null,null,null,B.nQ,5)
+B.Zc=new A.hr(60,5)
+B.FI=new A.hN("battery_low","Battery Low","SOC is low and battery is discharging","\u26a0\ufe0f",B.Zc,null,null,null,null,null,B.nQ,5)
+B.Z7=new A.hr(100,80)
+B.Zd=new A.hr(720,15)
+B.FO=new A.hN("battery_charged","Battery Charged","Battery nearly full while still charging","\u2705",B.Z7,null,null,null,null,null,B.Zd,5)
+B.nP=new A.hr(120,5)
+B.FF=new A.hN("grid_lost","Grid Power Lost","Fires once when grid voltage drops out","\ud83d\udd0c",null,null,null,null,null,null,B.nP,5)
+B.FL=new A.hN("grid_restored","Grid Restored","Fires once when grid comes back","\u2705",null,null,null,null,null,null,B.nP,5)
+B.Z9=new A.hr(200,1)
+B.CV=new A.hr(1440,60)
+B.FM=new A.hN("solar_no_production","Solar Not Producing","Panels stopped generating during daytime","\u2600\ufe0f",null,B.Z9,null,null,null,null,B.CV,60)
+B.YJ=new A.hr(8,0.5)
+B.CW=new A.hr(240,15)
+B.FE=new A.hN("runtime_low","Low Battery Runtime","Estimated hours-left below threshold","\u23f1",null,null,B.YJ,null,null,null,B.CW,5)
+B.Zf=new A.hr(80,10)
+B.Zb=new A.hr(6000,500)
+B.FH=new A.hN("heavy_load_low_battery","Heavy Load on Low Battery","High load while battery is low","\u26a1",B.Zf,null,null,B.Zb,null,null,B.nP,5)
+B.Ze=new A.hr(8000,1000)
+B.Z8=new A.hr(180,10)
+B.FJ=new A.hN("sustained_high_load","Sustained High Load","Load stays above threshold for a continuous duration","\ud83d\udd25",null,null,null,B.Ze,B.Z8,null,B.CW,5)
+B.Zg=new A.hr(90,10)
+B.SS=s([22,23,0,1,2,3,4,5,6],t.t)
+B.FN=new A.hN("nighttime_low_battery","Nighttime Battery Check","At a chosen hour each night, check whether battery will last till morning","\ud83c\udf19",B.Zg,null,null,null,null,B.SS,B.CV,60)
+B.Z6=new A.hr(1e4,2000)
+B.FG=new A.hN("peak_load","Peak Load","Instantaneous load spike above the maximum","\ud83d\udcc8",null,null,null,B.Z6,null,null,B.nQ,5)
+B.Qt=s([B.FK,B.FI,B.FO,B.FF,B.FL,B.FM,B.FE,B.FH,B.FJ,B.FN,B.FG],A.av("E<hN>"))
+B.Qu=s([239,191,189],t.t)
+B.Qx=s(["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],t.s)
+B.QT=s([4,9,14,19],t.t)
 B.SQ=s([137,80,78,71,13,10,26,10],t.Z)
 B.Pa=new A.uh(0,"png")
 B.Pi=new A.o2(B.Pa,!1,0,"png")
@@ -132183,28 +132212,28 @@ B.SR=s([71,73,70,56,55,97],t.Z)
 B.P7=new A.q5(B.SR,B.jx,1,"gif87a")
 B.RZ=s([71,73,70,56,57,97],t.Z)
 B.P6=new A.q5(B.RZ,B.jx,2,"gif89a")
-B.Qu=s([255,216,255],t.Z)
+B.Qv=s([255,216,255],t.Z)
 B.Pb=new A.uh(2,"jpeg")
 B.Pm=new A.o2(B.Pb,!1,3,"jpeg")
-B.P9=new A.q5(B.Qu,B.Pm,3,"jpeg")
-B.Rg=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
-B.P5=new A.q5(B.Rg,B.tc,4,"webp")
-B.R8=s([66,77],t.Z)
+B.P9=new A.q5(B.Qv,B.Pm,3,"jpeg")
+B.Rh=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
+B.P5=new A.q5(B.Rh,B.tc,4,"webp")
+B.R9=s([66,77],t.Z)
 B.Pc=new A.uh(4,"bmp")
 B.Pk=new A.o2(B.Pc,!1,6,"bmp")
-B.P4=new A.q5(B.R8,B.Pk,5,"bmp")
-B.QU=s([B.P8,B.P7,B.P6,B.P9,B.P5,B.P4],A.av("E<q5>"))
+B.P4=new A.q5(B.R9,B.Pk,5,"bmp")
+B.QV=s([B.P8,B.P7,B.P6,B.P9,B.P5,B.P4],A.av("E<q5>"))
 B.pa=new A.T2(0,"named")
 B.Fy=new A.T2(1,"anonymous")
-B.R2=s([B.pa,B.Fy],A.av("E<T2>"))
-B.R3=s(["January","February","March","April","May","June","July","August","September","October","November","December"],t.s)
+B.R3=s([B.pa,B.Fy],A.av("E<T2>"))
+B.R4=s(["January","February","March","April","May","June","July","August","September","October","November","December"],t.s)
 B.RM=s([0.41233895,0.35762064,0.18051042],t.n)
-B.Rp=s([0.2126,0.7152,0.0722],t.n)
+B.Rq=s([0.2126,0.7152,0.0722],t.n)
 B.T1=s([0.01932141,0.11916382,0.95034478],t.n)
-B.e5=s([B.RM,B.Rp,B.T1],t.zg)
+B.e5=s([B.RM,B.Rq,B.T1],t.zg)
 B.ts=s([0,4,12,1,5,13,3,7,15],t.t)
-B.R6=s([1,2,4,8,16,32,64,128,27,54,108,216,171,77,154,47,94,188,99,198,151,53,106,212,179,125,250,239,197,145],t.t)
-B.R7=s([65533],t.t)
+B.R7=s([1,2,4,8,16,32,64,128,27,54,108,216,171,77,154,47,94,188,99,198,151,53,106,212,179,125,250,239,197,145],t.t)
+B.R8=s([65533],t.t)
 B.a9O=new A.kc(0,1)
 B.a9T=new A.kc(0.5,1)
 B.a9W=new A.kc(0.5375,0.75)
@@ -132216,28 +132245,28 @@ B.a9X=new A.kc(0.8875,0.25)
 B.a9V=new A.kc(0.925,0.5)
 B.a9P=new A.kc(0.9625,0.75)
 B.a9Q=new A.kc(1,1)
-B.Rh=s([B.a9O,B.a9T,B.a9W,B.a9Y,B.a9U,B.a9S,B.a9R,B.a9X,B.a9V,B.a9P,B.a9Q],A.av("E<kc>"))
+B.Ri=s([B.a9O,B.a9T,B.a9W,B.a9Y,B.a9U,B.a9S,B.a9R,B.a9X,B.a9V,B.a9P,B.a9Q],A.av("E<kc>"))
 B.d5=new A.qU(0,"left")
 B.eq=new A.qU(1,"right")
 B.a8=new A.qU(2,"center")
 B.il=new A.qU(3,"justify")
 B.P=new A.qU(4,"start")
 B.dy=new A.qU(5,"end")
-B.Ri=s([B.d5,B.eq,B.a8,B.il,B.P,B.dy],A.av("E<qU>"))
+B.Rj=s([B.d5,B.eq,B.a8,B.il,B.P,B.dy],A.av("E<qU>"))
 B.Ry=s([2,1.13276676],t.n)
-B.Qx=s([2.18349805,1.20311921],t.n)
+B.Qy=s([2.18349805,1.20311921],t.n)
 B.SG=s([2.33888662,1.28698796],t.n)
 B.SI=s([2.48660575,1.36351941],t.n)
-B.Rl=s([2.62226596,1.44717976],t.n)
-B.Rr=s([2.7514899,1.53385819],t.n)
+B.Rm=s([2.62226596,1.44717976],t.n)
+B.Rs=s([2.7514899,1.53385819],t.n)
 B.RW=s([3.36298265,1.98288283],t.n)
 B.RB=s([4.08649929,2.23811846],t.n)
 B.RO=s([4.85481134,2.47563463],t.n)
-B.Ro=s([5.62945551,2.72948597],t.n)
+B.Rp=s([5.62945551,2.72948597],t.n)
 B.Rz=s([6.43023796,2.98020421],t.n)
-B.tt=s([B.Ry,B.Qx,B.SG,B.SI,B.Rl,B.Rr,B.RW,B.RB,B.RO,B.Ro,B.Rz],t.zg)
-B.Rk=s([B.ll,B.lm],A.av("E<Ij>"))
-B.Rn=s([18,15,10,12,15,18,15,12,12],t.n)
+B.tt=s([B.Ry,B.Qy,B.SG,B.SI,B.Rm,B.Rs,B.RW,B.RB,B.RO,B.Rp,B.Rz],t.zg)
+B.Rl=s([B.ll,B.lm],A.av("E<Ij>"))
+B.Ro=s([18,15,10,12,15,18,15,12,12],t.n)
 B.aa8=new A.RA(B.bR,"Solar",null)
 B.c8=new A.dz(12,null,null,null)
 B.Jv=new A.N(1,1,0.5411764705882353,0.5019607843137255,B.f)
@@ -132247,14 +132276,14 @@ B.Kz=new A.N(1,0.8352941176470589,0,0,B.f)
 B.US=new A.dU([100,B.Jv,200,B.Ky,400,B.J4,700,B.Kz],t.pl)
 B.cX=new A.a0H(B.US,1,1,0.3215686274509804,0.3215686274509804,B.f)
 B.aa9=new A.RA(B.cX,"Grid",null)
-B.Rq=s([B.aa8,B.c8,B.aa9],t.p)
+B.Rr=s([B.aa8,B.c8,B.aa9],t.p)
 B.MT=new A.xu(0,"verified")
 B.MU=new A.xu(1,"unverified")
-B.Rs=s([B.MT,B.MU],A.av("E<xu>"))
+B.Rt=s([B.MT,B.MU],A.av("E<xu>"))
 B.MV=new A.xv(0,"totp")
 B.MW=new A.xv(1,"phone")
-B.Rt=s([B.MV,B.MW],A.av("E<xv>"))
-B.Ru=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
+B.Ru=s([B.MV,B.MW],A.av("E<xv>"))
+B.Rv=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
 B.a9Z=new A.aar(null)
 B.S=new A.dz(null,16,null,null)
 B.aa5=new A.mb("1. Data we collect","Solar-IQ connects directly to your Voltronic / AXPERT KING II inverter through the Shinemonitor cloud API using credentials that you provide. We collect:\n\n\u2022 Shinemonitor username and password, stored encrypted in your private Supabase account so the app can poll your inverter.\n\u2022 Inverter telemetry: PV power, load power, battery power and state-of-charge, grid power, daily energy.\n\u2022 Your selected home location (latitude/longitude, optional) used only for local solar irradiance calculations.\n\u2022 Device push-notification token (FCM/APNs) so the server can notify you about grid loss, low battery or critical alerts.\n\u2022 Basic app telemetry such as app version and platform.",null)
@@ -132267,38 +132296,9 @@ B.aa1=new A.mb("7. Children","Solar-IQ is not directed to children under 13 and 
 B.aa3=new A.mb("8. Changes","We may update this policy as the app evolves. Material changes will be announced inside the app.",null)
 B.aa_=new A.mb("9. Contact","Questions about privacy? Email level7tech@gmail.com.",null)
 B.cD=new A.dz(null,32,null,null)
-B.Rv=s([B.a9Z,B.S,B.aa5,B.aa0,B.aa4,B.aa7,B.aa2,B.aa6,B.aa1,B.aa3,B.aa_,B.cD],t.p)
+B.Rw=s([B.a9Z,B.S,B.aa5,B.aa0,B.aa4,B.aa7,B.aa2,B.aa6,B.aa1,B.aa3,B.aa_,B.cD],t.p)
 B.Gr=new A.kp("",6,"userDeleted")
 B.tu=s([B.eB,B.h3,B.dH,B.eC,B.h4,B.po,B.Gr,B.pn],A.av("E<kp>"))
-B.Za=new A.hr(30,1)
-B.nQ=new A.hr(240,5)
-B.FL=new A.hN("battery_critical","Battery Critical","SOC reaches a critically low level","\ud83d\udd34",B.Za,null,null,null,null,null,B.nQ,5)
-B.Zc=new A.hr(60,5)
-B.FJ=new A.hN("battery_low","Battery Low","SOC is low and battery is discharging","\u26a0\ufe0f",B.Zc,null,null,null,null,null,B.nQ,5)
-B.Z7=new A.hr(100,80)
-B.Zd=new A.hr(720,15)
-B.FO=new A.hN("battery_charged","Battery Charged","Battery nearly full while still charging","\u2705",B.Z7,null,null,null,null,null,B.Zd,5)
-B.nP=new A.hr(120,5)
-B.FG=new A.hN("grid_lost","Grid Power Lost","Fires once when grid voltage drops out","\ud83d\udd0c",null,null,null,null,null,null,B.nP,5)
-B.FM=new A.hN("grid_restored","Grid Restored","Fires once when grid comes back","\u2705",null,null,null,null,null,null,B.nP,5)
-B.Z9=new A.hr(200,1)
-B.CV=new A.hr(1440,60)
-B.FN=new A.hN("solar_no_production","Solar Not Producing","Panels stopped generating during daytime","\u2600\ufe0f",null,B.Z9,null,null,null,null,B.CV,60)
-B.YJ=new A.hr(8,0.5)
-B.CW=new A.hr(240,15)
-B.FF=new A.hN("runtime_low","Low Battery Runtime","Estimated hours-left below threshold","\u23f1",null,null,B.YJ,null,null,null,B.CW,5)
-B.Zf=new A.hr(80,10)
-B.Zb=new A.hr(6000,500)
-B.FI=new A.hN("heavy_load_low_battery","Heavy Load on Low Battery","High load while battery is low","\u26a1",B.Zf,null,null,B.Zb,null,null,B.nP,5)
-B.Ze=new A.hr(8000,1000)
-B.Z8=new A.hr(180,10)
-B.FK=new A.hN("sustained_high_load","Sustained High Load","Load stays above threshold for a continuous duration","\ud83d\udd25",null,null,null,B.Ze,B.Z8,null,B.CW,5)
-B.Zg=new A.hr(90,10)
-B.SS=s([22,23,0,1,2,3,4,5,6],t.t)
-B.FE=new A.hN("nighttime_low_battery","Low Battery for the Night","After a configured hour, warn if battery is too low","\ud83c\udf19",B.Zg,null,null,null,null,B.SS,B.CV,60)
-B.Z6=new A.hr(1e4,2000)
-B.FH=new A.hN("peak_load","Peak Load","Instantaneous load spike above the maximum","\ud83d\udcc8",null,null,null,B.Z6,null,null,B.nQ,5)
-B.Rx=s([B.FL,B.FJ,B.FO,B.FG,B.FM,B.FN,B.FF,B.FI,B.FK,B.FE,B.FH],A.av("E<hN>"))
 B.K=s([1353184337,1399144830,3282310938,2522752826,3412831035,4047871263,2874735276,2466505547,1442459680,4134368941,2440481928,625738485,4242007375,3620416197,2151953702,2409849525,1230680542,1729870373,2551114309,3787521629,41234371,317738113,2744600205,3338261355,3881799427,2510066197,3950669247,3663286933,763608788,3542185048,694804553,1154009486,1787413109,2021232372,1799248025,3715217703,3058688446,397248752,1722556617,3023752829,407560035,2184256229,1613975959,1165972322,3765920945,2226023355,480281086,2485848313,1483229296,436028815,2272059028,3086515026,601060267,3791801202,1468997603,715871590,120122290,63092015,2591802758,2768779219,4068943920,2997206819,3127509762,1552029421,723308426,2461301159,4042393587,2715969870,3455375973,3586000134,526529745,2331944644,2639474228,2689987490,853641733,1978398372,971801355,2867814464,111112542,1360031421,4186579262,1023860118,2919579357,1186850381,3045938321,90031217,1876166148,4279586912,620468249,2548678102,3426959497,2006899047,3175278768,2290845959,945494503,3689859193,1191869601,3910091388,3374220536,0,2206629897,1223502642,2893025566,1316117100,4227796733,1446544655,517320253,658058550,1691946762,564550760,3511966619,976107044,2976320012,266819475,3533106868,2660342555,1338359936,2720062561,1766553434,370807324,179999714,3844776128,1138762300,488053522,185403662,2915535858,3114841645,3366526484,2233069911,1275557295,3151862254,4250959779,2670068215,3170202204,3309004356,880737115,1982415755,3703972811,1761406390,1676797112,3403428311,277177154,1076008723,538035844,2099530373,4164795346,288553390,1839278535,1261411869,4080055004,3964831245,3504587127,1813426987,2579067049,4199060497,577038663,3297574056,440397984,3626794326,4019204898,3343796615,3251714265,4272081548,906744984,3481400742,685669029,646887386,2764025151,3835509292,227702864,2613862250,1648787028,3256061430,3904428176,1593260334,4121936770,3196083615,2090061929,2838353263,3004310991,999926984,2809993232,1852021992,2075868123,158869197,4095236462,28809964,2828685187,1701746150,2129067946,147831841,3873969647,3650873274,3459673930,3557400554,3598495785,2947720241,824393514,815048134,3227951669,935087732,2798289660,2966458592,366520115,1251476721,4158319681,240176511,804688151,2379631990,1303441219,1414376140,3741619940,3820343710,461924940,3089050817,2136040774,82468509,1563790337,1937016826,776014843,1511876531,1389550482,861278441,323475053,2355222426,2047648055,2383738969,2302415851,3995576782,902390199,3991215329,1018251130,1507840668,1064563285,2043548696,3208103795,3939366739,1537932639,342834655,2262516856,2180231114,1053059257,741614648,1598071746,1925389590,203809468,2336832552,1100287487,1895934009,3736275976,2632234200,2428589668,1636092795,1890988757,1952214088,1113045200],t.t)
 B.bh=new A.hJ(0,"icon")
 B.by=new A.hJ(1,"input")
@@ -132510,10 +132510,10 @@ B.OV=new A.d9(B.Nt,16,null,null,null)
 B.a6w=new A.bF("Dark",null,null,null,null,null,null,null,null)
 B.H7=new A.nF(B.oG,B.OV,B.a6w,t.b6)
 B.SP=s([B.H8,B.H9,B.H7],A.av("E<nF<iH>>"))
-B.Ra=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
+B.Rb=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
 B.Sa=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
-B.Rm=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.SV=s([B.Ra,B.Sa,B.Rm],t.zg)
+B.Rn=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
+B.SV=s([B.Rb,B.Sa,B.Rn],t.zg)
 B.SW=s([45,95,45,20,45,90,45,45,45],t.n)
 B.SX=s([120,120,20,45,20,15,20,120,120],t.n)
 B.CU=new A.aq(0,0)
@@ -133148,72 +133148,72 @@ B.yL=new A.cb(B.bU,[],A.av("cb<OP,@>"))
 B.V6=new A.cb(B.bU,[],A.av("cb<k6,e5>"))
 B.yK=new A.cb(B.bU,[],A.av("cb<k6,xM<e5>>"))
 B.jR=new A.cb(B.bU,[],A.av("cb<j2<ix>?,r<i7>>"))
-B.QL=s([42,null,null,8589935146],t.Z)
-B.QM=s([43,null,null,8589935147],t.Z)
-B.QN=s([45,null,null,8589935149],t.Z)
-B.QO=s([46,null,null,8589935150],t.Z)
-B.QP=s([47,null,null,8589935151],t.Z)
-B.QQ=s([48,null,null,8589935152],t.Z)
-B.QR=s([49,null,null,8589935153],t.Z)
-B.QT=s([50,null,null,8589935154],t.Z)
-B.QV=s([51,null,null,8589935155],t.Z)
-B.QW=s([52,null,null,8589935156],t.Z)
-B.QX=s([53,null,null,8589935157],t.Z)
-B.QY=s([54,null,null,8589935158],t.Z)
-B.QZ=s([55,null,null,8589935159],t.Z)
-B.R_=s([56,null,null,8589935160],t.Z)
-B.R1=s([57,null,null,8589935161],t.Z)
+B.QM=s([42,null,null,8589935146],t.Z)
+B.QN=s([43,null,null,8589935147],t.Z)
+B.QO=s([45,null,null,8589935149],t.Z)
+B.QP=s([46,null,null,8589935150],t.Z)
+B.QQ=s([47,null,null,8589935151],t.Z)
+B.QR=s([48,null,null,8589935152],t.Z)
+B.QS=s([49,null,null,8589935153],t.Z)
+B.QU=s([50,null,null,8589935154],t.Z)
+B.QW=s([51,null,null,8589935155],t.Z)
+B.QX=s([52,null,null,8589935156],t.Z)
+B.QY=s([53,null,null,8589935157],t.Z)
+B.QZ=s([54,null,null,8589935158],t.Z)
+B.R_=s([55,null,null,8589935159],t.Z)
+B.R0=s([56,null,null,8589935160],t.Z)
+B.R2=s([57,null,null,8589935161],t.Z)
 B.RQ=s([8589934852,8589934852,8589934853,null],t.Z)
-B.QA=s([4294967555,null,4294967555,null],t.Z)
-B.QB=s([4294968065,null,null,8589935154],t.Z)
-B.QC=s([4294968066,null,null,8589935156],t.Z)
-B.QD=s([4294968067,null,null,8589935158],t.Z)
-B.QE=s([4294968068,null,null,8589935160],t.Z)
-B.QJ=s([4294968321,null,null,8589935157],t.Z)
+B.QB=s([4294967555,null,4294967555,null],t.Z)
+B.QC=s([4294968065,null,null,8589935154],t.Z)
+B.QD=s([4294968066,null,null,8589935156],t.Z)
+B.QE=s([4294968067,null,null,8589935158],t.Z)
+B.QF=s([4294968068,null,null,8589935160],t.Z)
+B.QK=s([4294968321,null,null,8589935157],t.Z)
 B.RR=s([8589934848,8589934848,8589934849,null],t.Z)
-B.Qz=s([4294967423,null,null,8589935150],t.Z)
-B.QF=s([4294968069,null,null,8589935153],t.Z)
-B.Qy=s([4294967309,null,null,8589935117],t.Z)
-B.QG=s([4294968070,null,null,8589935159],t.Z)
-B.QK=s([4294968327,null,null,8589935152],t.Z)
+B.QA=s([4294967423,null,null,8589935150],t.Z)
+B.QG=s([4294968069,null,null,8589935153],t.Z)
+B.Qz=s([4294967309,null,null,8589935117],t.Z)
+B.QH=s([4294968070,null,null,8589935159],t.Z)
+B.QL=s([4294968327,null,null,8589935152],t.Z)
 B.RS=s([8589934854,8589934854,8589934855,null],t.Z)
-B.QH=s([4294968071,null,null,8589935155],t.Z)
-B.QI=s([4294968072,null,null,8589935161],t.Z)
+B.QI=s([4294968071,null,null,8589935155],t.Z)
+B.QJ=s([4294968072,null,null,8589935161],t.Z)
 B.RT=s([8589934850,8589934850,8589934851,null],t.Z)
-B.yM=new A.dU(["*",B.QL,"+",B.QM,"-",B.QN,".",B.QO,"/",B.QP,"0",B.QQ,"1",B.QR,"2",B.QT,"3",B.QV,"4",B.QW,"5",B.QX,"6",B.QY,"7",B.QZ,"8",B.R_,"9",B.R1,"Alt",B.RQ,"AltGraph",B.QA,"ArrowDown",B.QB,"ArrowLeft",B.QC,"ArrowRight",B.QD,"ArrowUp",B.QE,"Clear",B.QJ,"Control",B.RR,"Delete",B.Qz,"End",B.QF,"Enter",B.Qy,"Home",B.QG,"Insert",B.QK,"Meta",B.RS,"PageDown",B.QH,"PageUp",B.QI,"Shift",B.RT],A.av("dU<i,r<m?>>"))
-B.R0=s([B.tO,null,null,B.yu],t.L)
+B.yM=new A.dU(["*",B.QM,"+",B.QN,"-",B.QO,".",B.QP,"/",B.QQ,"0",B.QR,"1",B.QS,"2",B.QU,"3",B.QW,"4",B.QX,"5",B.QY,"6",B.QZ,"7",B.R_,"8",B.R0,"9",B.R2,"Alt",B.RQ,"AltGraph",B.QB,"ArrowDown",B.QC,"ArrowLeft",B.QD,"ArrowRight",B.QE,"ArrowUp",B.QF,"Clear",B.QK,"Control",B.RR,"Delete",B.QA,"End",B.QG,"Enter",B.Qz,"Home",B.QH,"Insert",B.QL,"Meta",B.RS,"PageDown",B.QI,"PageUp",B.QJ,"Shift",B.RT],A.av("dU<i,r<m?>>"))
+B.R1=s([B.tO,null,null,B.yu],t.L)
 B.SE=s([B.yg,null,null,B.yv],t.L)
-B.Rw=s([B.yh,null,null,B.yw],t.L)
+B.Rx=s([B.yh,null,null,B.yw],t.L)
 B.RU=s([B.yi,null,null,B.ea],t.L)
 B.Qp=s([B.yj,null,null,B.yx],t.L)
 B.ST=s([B.yk,null,null,B.nj],t.L)
 B.SO=s([B.yl,null,null,B.hT],t.L)
-B.R9=s([B.ym,null,null,B.eb],t.L)
+B.Ra=s([B.ym,null,null,B.eb],t.L)
 B.T_=s([B.yn,null,null,B.hU],t.L)
 B.SM=s([B.yo,null,null,B.ec],t.L)
-B.R5=s([B.yp,null,null,B.nk],t.L)
-B.Qv=s([B.yq,null,null,B.ed],t.L)
-B.Rj=s([B.yr,null,null,B.hV],t.L)
+B.R6=s([B.yp,null,null,B.nk],t.L)
+B.Qw=s([B.yq,null,null,B.ed],t.L)
+B.Rk=s([B.yr,null,null,B.hV],t.L)
 B.SF=s([B.ys,null,null,B.ee],t.L)
 B.SH=s([B.yt,null,null,B.hW],t.L)
-B.Rb=s([B.hR,B.hR,B.jK,null],t.L)
+B.Rc=s([B.hR,B.hR,B.jK,null],t.L)
 B.SU=s([B.jH,null,B.jH,null],t.L)
 B.RC=s([B.cy,null,null,B.eb],t.L)
 B.RD=s([B.ci,null,null,B.ec],t.L)
 B.RE=s([B.cj,null,null,B.ed],t.L)
 B.SY=s([B.cz,null,null,B.ee],t.L)
 B.SK=s([B.ne,null,null,B.nk],t.L)
-B.Rc=s([B.fa,B.fa,B.hQ,null],t.L)
+B.Rd=s([B.fa,B.fa,B.hQ,null],t.L)
 B.S4=s([B.bu,null,null,B.ea],t.L)
 B.RF=s([B.e7,null,null,B.hT],t.L)
-B.R4=s([B.jG,null,null,B.ni],t.L)
+B.R5=s([B.jG,null,null,B.ni],t.L)
 B.RG=s([B.e8,null,null,B.hV],t.L)
 B.SL=s([B.hP,null,null,B.nj],t.L)
-B.Rd=s([B.hS,B.hS,B.jL,null],t.L)
+B.Re=s([B.hS,B.hS,B.jL,null],t.L)
 B.RH=s([B.hN,null,null,B.hU],t.L)
 B.Sc=s([B.hO,null,null,B.hW],t.L)
-B.Re=s([B.dr,B.dr,B.e9,null],t.L)
-B.V7=new A.dU(["*",B.R0,"+",B.SE,"-",B.Rw,".",B.RU,"/",B.Qp,"0",B.ST,"1",B.SO,"2",B.R9,"3",B.T_,"4",B.SM,"5",B.R5,"6",B.Qv,"7",B.Rj,"8",B.SF,"9",B.SH,"Alt",B.Rb,"AltGraph",B.SU,"ArrowDown",B.RC,"ArrowLeft",B.RD,"ArrowRight",B.RE,"ArrowUp",B.SY,"Clear",B.SK,"Control",B.Rc,"Delete",B.S4,"End",B.RF,"Enter",B.R4,"Home",B.RG,"Insert",B.SL,"Meta",B.Rd,"PageDown",B.RH,"PageUp",B.Sc,"Shift",B.Re],A.av("dU<i,r<o?>>"))
+B.Rf=s([B.dr,B.dr,B.e9,null],t.L)
+B.V7=new A.dU(["*",B.R1,"+",B.SE,"-",B.Rx,".",B.RU,"/",B.Qp,"0",B.ST,"1",B.SO,"2",B.Ra,"3",B.T_,"4",B.SM,"5",B.R6,"6",B.Qw,"7",B.Rk,"8",B.SF,"9",B.SH,"Alt",B.Rc,"AltGraph",B.SU,"ArrowDown",B.RC,"ArrowLeft",B.RD,"ArrowRight",B.RE,"ArrowUp",B.SY,"Clear",B.SK,"Control",B.Rd,"Delete",B.S4,"End",B.RF,"Enter",B.R5,"Home",B.RG,"Insert",B.SL,"Meta",B.Re,"PageDown",B.RH,"PageUp",B.Sc,"Shift",B.Rf],A.av("dU<i,r<o?>>"))
 B.W5={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.nv=new A.cb(B.W5,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.W1={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
