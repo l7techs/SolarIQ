@@ -35621,14 +35621,13 @@ q.toString
 p=s[3]
 if(p==null)p="00"
 return A.i8(B.c.a0(a,0,s.index)+r+q+":"+p).mr()}return A.i8(a)},
-p1:function p1(a,b,c,d,e,f,g){var _=this
+p1:function p1(a,b,c,d,e,f){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
-_.e=e
-_.f=f
-_.r=g},
+_.f=e
+_.r=f},
 tV:function tV(){},
 apO:function apO(){},
 hP:function hP(a,b,c){this.a=a
@@ -39219,7 +39218,7 @@ $S:2}
 A.bbh.prototype={
 $1(a){var s=A.f5().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/83675ed27633283e7fc296c8bca22e841224c096/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/69c8c61792f04cc809dfef0c910414fb9afc06cd/":s)+a},
 $S:31}
 A.a2Z.prototype={
 gA(a){var s=this.a
@@ -129667,9 +129666,10 @@ break
 case 1:return A.t(q,r)}})
 return A.u($async$zj,r)}}
 A.apO.prototype={
-$1(a){var s=J.a9(a),r=s.i(a,"grid_voltage"),q=A.bu0(A.b0(s.i(a,"recorded_at"))),p=B.d.bm(A.d6(s.i(a,"soc"))),o=A.d6(s.i(a,"pv_power")),n=A.d6(s.i(a,"load_power")),m=A.d6(s.i(a,"batt_power"))
+$1(a){var s=J.a9(a),r=s.i(a,"grid_voltage"),q=A.bu0(A.b0(s.i(a,"recorded_at"))),p=B.d.bm(A.d6(s.i(a,"soc"))),o=A.d6(s.i(a,"pv_power")),n=A.d6(s.i(a,"load_power"))
+A.d6(s.i(a,"batt_power"))
 s=A.d6(s.i(a,"grid_power"))
-return new A.p1(q,p,o,n,m,s,r==null?null:A.d6(r))},
+return new A.p1(q,p,o,n,s,r==null?null:A.d6(r))},
 $S:965}
 A.hP.prototype={}
 A.bd2.prototype={
